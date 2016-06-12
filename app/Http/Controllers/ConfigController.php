@@ -26,7 +26,7 @@ class ConfigController extends Controller
     	$articulo->title=$request['title'];
     	$articulo->description= $request['description'];
     	$articulo->save();
-  		return redirect('/config/articles');
+  		return redirect('/config/articles/');
     
     }
 }
