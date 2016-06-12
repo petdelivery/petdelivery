@@ -8,7 +8,24 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                   <div class="panel col-sm-4">
+                    <div class="panel-heading">Tienda en linea</div>
+                    <div class="panel-body">
+
+                        
+
+                    </div>
+
+                   </div>
+                   <div class="col-sm-8">
+                    <div class="panel">
+                        <div class="panel-heading"></div>
+                        <div class="panel-body">
+
+                        </div>
+
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
