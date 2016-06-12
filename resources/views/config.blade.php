@@ -27,7 +27,7 @@
                         <div class="panel-footer">Nuevo Articulo<br>
 
                             <div>
-                            <form   action="/article/new" method="_POST">
+                            <form   action="article/new" method="_POST">
                                 <input type="text" name="title" >
                                 <input type="text" name="description">
                                 <button class="btn btn-default">Crear nuevo articulo</button>
