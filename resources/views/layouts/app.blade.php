@@ -16,6 +16,11 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
+        .navbar-default {
+            background-color: #ffffff;
+            border-color: #aeadad;
+            border-style: dashed;
+        }
         body {
             font-family: 'Lato';
         }
