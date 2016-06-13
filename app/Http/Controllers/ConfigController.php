@@ -37,7 +37,7 @@ class ConfigController extends Controller
 
         $articulo =Articulo::where('id', $id)->delete();
 
-        return view('/config/articles/',['articulos'=>Articulo::all()]);
+        return redirect('/config/articles/');
     
     }
 }
