@@ -21,7 +21,7 @@
                         <div class="panel-heading">Articulos</div>
                         <div class="panel-body">
                             @foreach ($articulos as $articulo)
-                                {{$articulo->title}}<br>
+                                {{$articulo->title}} <a href="{{url('config/article/remove/'.$article->id)}}"> x </a><br>
                              @endforeach
                         </div>
                         <div class="panel-footer">Nuevo Articulo<br>

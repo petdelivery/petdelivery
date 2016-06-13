@@ -26,5 +26,5 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('config/articles','ConfigController@ListArticles');
 
 	Route::get('config/article/new','ConfigController@NewArticle');
-	Route::post('config/article/remove/{id}','ConfigController@RemoveArticle');
+	Route::get('config/article/remove/{id}','ConfigController@RemoveArticle');
 });

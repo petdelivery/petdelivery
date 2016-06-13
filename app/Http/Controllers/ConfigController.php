@@ -30,10 +30,11 @@ class ConfigController extends Controller
     
     }
 
-        public function RemoveArticle(Request $request){
+    public function RemoveArticle(Request $request){
 
         $id=$request->get('id');
-        $articulo = Articulo::findfirst($id);
+        var_dump($id);
+        $articulo = Articulo::findFirst($id);
         
         $articulo->delete();
         return redirect('/config/articles/');
