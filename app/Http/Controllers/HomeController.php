@@ -34,7 +34,7 @@ class HomeController extends Controller
 
     public function articleDetail($id)
     {
-        return view('home',['articles'=>Articulo::all($id)  ]);
+        return view('home',['articles'=>Articulo::where('id',$id)->findOne()]);
     }
  
 }
