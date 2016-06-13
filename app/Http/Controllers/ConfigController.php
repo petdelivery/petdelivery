@@ -35,7 +35,7 @@ class ConfigController extends Controller
         $id=$request->get('id');
         var_dump($id);
 
-        $articulo = App\Articulo::where('id', $id)->delete();
+        $articulo =Articulo::where('id', $id)->delete();
 
         return redirect('/config/articles/');
     
