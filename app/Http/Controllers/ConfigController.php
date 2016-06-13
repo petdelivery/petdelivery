@@ -32,12 +32,12 @@ class ConfigController extends Controller
 
     public function RemoveArticle(Request $request){
 
-        $id=$request->get('remove');
+        $id=$request->get('id');
         var_dump($id);
 
         $articulo =Articulo::where('id', $id)->delete();
 
-        return redirect('/config/articles/',['articulos'=>Articulo::all()]);
+        return view('/config/articles/',['articulos'=>Articulo::all()]);
     
     }
 }
