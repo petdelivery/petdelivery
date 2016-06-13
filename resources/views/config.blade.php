@@ -9,8 +9,8 @@
 
                 <div class="panel-body">
                    <div class="panel col-sm-4">
-                    <div class="panel-heading">Articulos</div>
-                    <a class="btn btn-default">Nuevo Articulo</a> 
+                    <div class="panel-heading">Categorias</div>
+                    <a class="btn btn-default">Perros</a> 
                     <div class="panel-body">
 
                     </div>
@@ -21,7 +21,7 @@
                         <div class="panel-heading">Articulos</div>
                         <div class="panel-body">
                             @foreach ($articulos as $articulo)
-                                {{$articulo->title}} <a href="{{url('config/article/remove/'.$article->id)}}"> x </a><br>
+                                {{$articulo->title}} <a href="{{url('config/article/remove/'.$articulo->id)}}"> x </a><br>
                              @endforeach
                         </div>
                         <div class="panel-footer">Nuevo Articulo<br>
