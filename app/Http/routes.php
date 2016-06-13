@@ -19,6 +19,8 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('/articles', 'HomeController@articles');
+
 Route::group(['middleware' => 'auth'], function () {
 	Route::get('config/articles','ConfigController@ListArticles');
 

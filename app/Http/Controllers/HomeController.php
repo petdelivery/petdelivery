@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
+use App\Article;
 
 class HomeController extends Controller
 {
@@ -25,5 +26,9 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+    public function articles()
+    {
+        return view('home',['articles'=>Article::all()  ]);
     }
 }
