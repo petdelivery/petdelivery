@@ -29,4 +29,14 @@ class ConfigController extends Controller
   		return redirect('/config/articles/');
     
     }
+
+        public function RemoveArticle(Request $request){
+
+        $id=$request->get('id');
+        $articulo = Articulo::findfirst($id);
+        
+        $articulo->delete();
+        return redirect('/config/articles/');
+    
+    }
 }

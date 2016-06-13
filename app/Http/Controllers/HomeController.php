@@ -31,4 +31,10 @@ class HomeController extends Controller
     {
         return view('home',['articles'=>Articulo::all()  ]);
     }
+
+    public function articleDetail($id)
+    {
+        return view('home',['articles'=>Articulo::all($id)  ]);
+    }
+ 
 }
