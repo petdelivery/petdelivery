@@ -11,10 +11,11 @@
                    <div class="panel col-sm-4">
                     <div class="panel-heading">Tienda en linea</div>
                     <div class="panel-body">
-    <ul>
+    <ul>@if(isset($articles))
         @foreach($articles as $article)
         <li>{{$article->title}}</li>
         @endforeach
+        @endif
     </ul>
                         
 
