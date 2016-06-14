@@ -14,17 +14,23 @@ class ConfigController extends Controller
         $this->middleware('auth');
     }
 
-    public function ListArticles(){
+    public function ListArticles($category=null){
 
-    	return view('config',['articulos'=>Articulo::all()]);
+    if(!$category)
+    	return view('config',['articulos'=>Articulo::all(),'category'=>$category]);
+    else 
+        return view('config',['articulos'=>Articulo::where('category',$category)->get(),'category'=>$category]);
     }
 
     public function NewArticle(Request $request){
 
-    	$request->get('title','description');
+    	$request->get('title','description','category');
     	$articulo = new Articulo();
     	$articulo->title=$request['title'];
     	$articulo->description= $request['description'];
+        $articulo->category=$request['category'];
+        $articulo->precio=$request['precio'];
+        $articulo->destacado=$request['destacado'];
     	$articulo->save();
   		return redirect('/config/articles/');
     
@@ -32,7 +38,6 @@ class ConfigController extends Controller
 
     public function RemoveArticle($id){
 
-        var_dump($id);
 
         $articulo =Articulo::where('id', $id)->delete();
 

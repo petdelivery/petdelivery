@@ -11,6 +11,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+
+    	for ($i=0; $i < 15; $i++) { 
+    		DB::table('articulos')->insert([
+            'title' => str_random(20),
+            'description' => str_random(40),
+            'precio' =>'75000',
+            'category' => str_random(10)
+        ]);
+    	}
+        
     }
 }

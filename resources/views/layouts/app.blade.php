@@ -14,15 +14,17 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
-
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic' rel='stylesheet' type='text/css'>
     <style>
+
         .navbar-default {
             background-color: #ffffff;
             border-color: #aeadad;
             border-style: dashed;
         }
         body {
-            font-family: 'Lato';
+           /* font-family: 'Lato'; */
+            font-family: 'Ubuntu', sans-serif;
         }
 
         .fa-btn {
@@ -60,9 +62,9 @@
                     <!-- Authentication Links -->
                     @if (Auth::guest())
                         <li><a href="{{ url('/login') }}">Login</a></li>
-                        <li><a href="{{ url('/register') }}">Registrese</a></li>
+                       <!-- <li><a href="{{ url('/register') }}">Registrese</a></li> -->
                     @else
-                        <li><a href="{{ url('/config/articles') }}">config</a></li>
+                        <li><a href="{{ url('/config/articles') }}">Dashboard</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                 {{ Auth::user()->name }} <span class="caret"></span>
