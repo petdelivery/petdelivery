@@ -30,6 +30,23 @@
         .fa-btn {
             margin-right: 6px;
         }
+
+        .navbar-header:before
+{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url(/images/bg.png) 0 0 repeat;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
     </style>
 </head>
 <body id="app-layout">
@@ -54,7 +71,6 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/home') }}">Inicio</a></li>
                      <li><a href="{{ url('/articles') }}">Articulos</a></li>
                 </ul>
                 <!-- Right Side Of Navbar -->

@@ -8,14 +8,17 @@
 
         @foreach($articles as $article)
         <div class=" panel col-md-4">
-            <h2>
+            <a class="btn" href="article/{{$article->id}}">
+                <img src="http://placehold.it/350x150">
+            </a>
+            <h4>
                 {{ $article->title}}
-            </h2>
+            </h4>
             <p>
                 {{ $article->description}}
             </p>
             <p>
-                <a class="btn" href="#">{{ $article->precio }} --> Ordenar</a>
+                <a class="btn" href="article/{{ $article->id}}">{{ $article->precio }} --> Ordenar</a>
             </p>
         </div>
         

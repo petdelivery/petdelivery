@@ -8,30 +8,19 @@
                 <div class="panel-heading"></div>
 
                 <div class="panel-body">
-                   <div class="panel col-sm-4">
-                    <div class="panel-heading">PetDelivery</div>
-                    <div class="panel-body">
-                        
-                        <ul>@if(isset($articles))
-                            @foreach($articles as $article)
-                            <li>{{$article->title}}</li>
-                            @endforeach
-                            @endif
-                        </ul>
-                        
+                    @if(isset($articles))
+                    @foreach($articles as $article)
+                       <div class="panel col-sm-12">
+                            <div class="panel-heading">{{$article->title}}</div>
+                            <div class="panel-body">
+                                {{$article->description}}
+                                {{$article->precio}}
+                                {{$article->category}}
+                            </div>
 
-                    </div>
-
-                   </div>
-                   <div class="col-sm-8">
-                    <div class="panel">
-                        <div class="panel-heading"></div>
-                        <div class="panel-body">
-
-                        </div>
-
-                    </div>
-                </div>
+                       </div>
+                    @endforeach
+                    @endif
                 </div>
             </div>
         </div>
