@@ -35,8 +35,7 @@
 {
     content: "";
     position: absolute;
-    width: 200%;
-    height: 200%;
+    
     top: -50%;
     left: -50%;
     z-index: -1;
