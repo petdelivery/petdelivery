@@ -66,7 +66,7 @@ body {
 }
 a {
   text-decoration: none;
-}
+}/*
 .blurImg {
   position: relative;
   width: 100%;
@@ -177,7 +177,7 @@ nav ul li a:hover {
   margin: 0 auto;
   padding-top: 40px;
 }
-
+*/
     </style>
 </head>
 <body id="app-layout">
