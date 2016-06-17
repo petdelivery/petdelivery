@@ -1,6 +1,42 @@
 @extends('layouts.app')
 
 @section('content')
+
+<!-- -->
+<div class='blurImg'>
+  <div style="background-image: url('https://d262ilb51hltx0.cloudfront.net/fit/c/1600/1280/gradv/29/81/60/darken/25/1*4ncz3hLxmL8E_bUh-0z62w.jpeg')"></div>
+  <div class='blur' style="background-image: url('https://d262ilb51hltx0.cloudfront.net/fit/c/1600/1280/gradv/29/81/40/darken/50/blur/50/1*4ncz3hLxmL8E_bUh-0z62w.jpeg')"></div>
+</div>
+<header>
+  <div>
+    <h1>
+      Medium
+    </h1>
+    <p>
+      Everyone’s stories and ideas
+    </p>
+    <a href='https://medium.com/' title='Medium'>Learn more</a>
+  </div>
+  <nav role='navigation'>
+    <ul>
+      <li>
+        <a class='active' href='#'>Reading List</a>
+      </li>
+      <li>
+        <a href='#'>Bookmarks</a>
+      </li>
+      <li>
+        <a href='#'>Top 100</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div class='container'>
+  <div></div>
+</div>
+
+
+<!-- -->
 <div class="container">
 
 
