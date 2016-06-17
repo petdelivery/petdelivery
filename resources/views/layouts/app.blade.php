@@ -5,7 +5,7 @@
 
 <!--[if IE 9 ]><html class="ie9" lang="es"><![endif]-->
 
-<!--[if gt IE 9 ]><!--><html lang="es"><!-->![endif]-->
+<!--[if gt IE 9 ]><!--><html lang="es"><!--![endif]-->
 
 <head>
     <meta charset="utf-8">
