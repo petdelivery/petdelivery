@@ -6,7 +6,7 @@
 <div class="row hero_image">
     
 </div>
-
+<hr>
 <!-- -->
 <div class="container">
 
@@ -14,7 +14,7 @@
     <div class="row">
 
         @foreach($articles as $article)
-        <div class=" panel col-md-4">
+        <div class=" panel col-md-4 bordered">
             <a class="btn" href="article/{{$article->id}}">
                 <img src="http://placehold.it/350x150">
             </a>

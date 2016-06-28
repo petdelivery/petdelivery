@@ -23,7 +23,10 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic' rel='stylesheet' type='text/css'>
     <style>
-
+        
+        .panel.col-md-4.bordered {
+          border: thin solid #cdcdcd;
+          border-radius: 0px;}
         .hero_image{
           background:#bdbdbd url('asset("images/catbg.jpg");');
           background-repeat:no-repeat;
