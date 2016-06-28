@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- -->
-<div class="row heroimage">
+<div class="row hero_image">
     
 </div>
 
