@@ -25,7 +25,7 @@
     <style>
 
         .hero_image{
-          background:url('{{ URL::to('/') }}/images/catbg.jpg');
+          background:url('asset("images/catbg.jpg");');
           background-repeat:no-repeat;
           background-size:cover;
           height:400px;
