@@ -3,8 +3,9 @@
 @section('content')
 
 <!-- -->
-
-
+<div class="row heroimage">
+    
+</div>
 
 <!-- -->
 <div class="container">

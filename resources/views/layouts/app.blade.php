@@ -24,6 +24,11 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic' rel='stylesheet' type='text/css'>
     <style>
 
+        .hero_image{
+          background:url('images/catbg.jpg');
+          background-repeat:no-repeat;
+          background-size:cover;
+        }
         .navbar-default {
             background-color: #ffffff;
             border-color: #aeadad;
