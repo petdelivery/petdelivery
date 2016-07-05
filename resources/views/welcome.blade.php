@@ -74,4 +74,11 @@
         </div>
     </div>
 </div>
+<footer>
+    <div class="row text-center" style="background:black;color;white;">
+
+        derechos registrados
+        
+    </div>
+</footer>
 @endsection
