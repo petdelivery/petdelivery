@@ -34,10 +34,10 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
-                <div class="panel-heading">PETDELIVERY</div>
+                <div class="panel-heading">Haz tus pedidos por whatsapp</div>
 
                 <div class="panel-body">
-                    PETDELIVERY
+                    305-7064871
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
 
 
 
-    <div class="row">
+    <div class="row hidden">
         <div class="col-md-4">
             <blockquote>
                 <p>
