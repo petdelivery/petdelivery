@@ -28,7 +28,7 @@
           border: thin solid #cdcdcd;
           border-radius: 0px;}
         .hero_image{
-          background:#bdbdbd url('asset("assets/images/catbg.jpg");');
+          background:#bdbdbd url('{{asset("assets/images/catbg.jpg")}}');
           background-repeat:no-repeat;
           background-size:cover;
           height:400px;
