@@ -55,7 +55,7 @@
     top: -50%;
     left: -50%;
     z-index: -1;
-    background: url(/images/bg.png) 0 0 repeat;
+    background: url('/images/bg.png') 0 0 repeat;
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
