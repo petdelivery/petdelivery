@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Articulo;
+use \Input; as Input;
 
 class ConfigController extends Controller
 {
@@ -23,9 +24,18 @@ class ConfigController extends Controller
     }
 
     public function NewArticle(Request $request){
+        $articulo = new Articulo();
 
-    	$request->get('title','description','category');
-    	$articulo = new Articulo();
+
+
+    	$request->get('title','description','category','file');
+
+        if(Input::hasFile('file')){
+            $file = Input::file('file');
+            $file->move('uploads',$file->getClientOriginalName());
+            $articulo->imagen=$file->getClientOriginalName();
+        }
+    	
     	$articulo->title=$request['title'];
     	$articulo->description= $request['description'];
         $articulo->category=$request['category'];

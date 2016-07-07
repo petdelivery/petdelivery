@@ -30,7 +30,7 @@
                         </div>
                         <div class="panel-footer">Nuevo Articulo<div>
 
-                            <form class="form-horizontal"  action="./article/new" method="_POST">
+                            <form class="form-horizontal"  action="./article/new" method="_POST" snctype="multipart/form-data">
                                 <fieldset>
 
                                 <!-- Text input-->
@@ -73,19 +73,8 @@
                                   </div>
 
                                    <div class="secure">Upload form</div>
-                                    {!! Form::open(array('url'=>'apply/upload','method'=>'POST', 'files'=>true)) !!}
-                                     <div class="control-group">
-                                      <div class="controls">
-                                      {!! Form::file('image') !!}
-                                <p class="errors">{!!$errors->first('image')!!}</p>
-                              @if(Session::has('error'))
-                              <p class="errors">{!! Session::get('error') !!}</p>
-                              @endif
-                                    </div>
-                                    </div>
-                                    <div id="success"> </div>
-                                  {!! Form::submit('Submit', array('class'=>'send-btn')) !!}
-                                  {!! Form::close() !!}
+                                     Select Image to Upload:
+                                     <input type="file" name="file" id="file">
                                   </div>
 
 
