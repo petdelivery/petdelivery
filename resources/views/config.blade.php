@@ -65,12 +65,30 @@
                                   </div>
                                 </div>
                                     <!-- Text input-->
-                                                                <div class="form-group">
+                                  <div class="form-group">
                                   <label class="col-md-4 control-label" for="Precio">Precio</label>  
                                   <div class="col-md-5">
                                   <input id="Precio" name="precio" type="number" placeholder="$" class="form-control input-md" required="">
                                   <span class="help-block">Precio total</span>  
                                   </div>
+
+                                   <div class="secure">Upload form</div>
+                                    {!! Form::open(array('url'=>'apply/upload','method'=>'POST', 'files'=>true)) !!}
+                                     <div class="control-group">
+                                      <div class="controls">
+                                      {!! Form::file('image') !!}
+                                <p class="errors">{!!$errors->first('image')!!}</p>
+                              @if(Session::has('error'))
+                              <p class="errors">{!! Session::get('error') !!}</p>
+                              @endif
+                                    </div>
+                                    </div>
+                                    <div id="success"> </div>
+                                  {!! Form::submit('Submit', array('class'=>'send-btn')) !!}
+                                  {!! Form::close() !!}
+                                  </div>
+
+
                                 </div>
                                 <!-- Select Multiple -->
                                 <div class="form-group">
