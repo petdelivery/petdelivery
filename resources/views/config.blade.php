@@ -23,7 +23,7 @@
                             @foreach ($articulos as $articulo)
                                 <div class="title col-sm-4 {{ $articulo->destacado?'bg-success':''}}">
                                 <a href="{{url('config/article/remove/'.$articulo->id)}}" class="button-close btn-sm  btn btn-danger btn-small"> x </a>
-                               <span class="titulo">{{$articulo->title}} 
+                               <span class="titulo">{{$articulo->title}} {{$articulo->image}}
                                  </span> 
                                 </div> 
                              @endforeach
