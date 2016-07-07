@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Articulo;
-use \Input; as Input;
+use \Input as Input;
 
 class ConfigController extends Controller
 {
