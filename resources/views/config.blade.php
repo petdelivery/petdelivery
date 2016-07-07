@@ -76,10 +76,6 @@
                                      <label class="col-md-4 control-label" for="file">Select Image to Upload:</label>
                                      <input type="file" name="file" id="file">
                                   </div>
-
-
-                                </div>
-                                <!-- Select Multiple -->
                                 <div class="form-group">
                                   <label class="col-md-4 control-label" for="Categoria">Categoria</label>
                                   <div class="col-md-4">
@@ -98,6 +94,10 @@
                                     <button id="Crear" name="Crear" class="btn btn-success">Guardar</button>
                                   </div>
                                 </div>
+
+                                </div>
+                                <!-- Select Multiple -->
+                               
 
                                 </fieldset>
                                 </form>
