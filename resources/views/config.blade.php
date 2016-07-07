@@ -85,7 +85,7 @@
                                   <div class="col-md-4">
                                     <select id="Categoria" name="category" class="form-control" multiple="multiple">
                                       <option value="1">Perros</option>
-                                      <option value="2">Gatos</option>
+                                      <option value="2" selected="selected">Gatos</option>
                                       <option value="3">Accesorios</option>
                                     </select>
                                   </div>
