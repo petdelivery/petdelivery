@@ -72,8 +72,8 @@
                                   <span class="help-block">Precio total</span>  
                                   </div>
 
-                                   <div class="secure">Upload form</div>
-                                     Select Image to Upload:
+                                   <div class=" form-group secure">Imagen</div>
+                                     <label class="col-md-4 control-label" for="file">Select Image to Upload:</label>
                                      <input type="file" name="file" id="file">
                                   </div>
 
