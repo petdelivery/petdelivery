@@ -54,6 +54,10 @@ class ConfigController extends Controller
          // $request->file('file')->move('/uploads',$fileName);
           $articulo->image=$fileName;
         }
+        else {
+
+            dd($request->file('file'));
+        }
     	
     	$articulo->title=$request['title'];
     	$articulo->description= $request['description'];
