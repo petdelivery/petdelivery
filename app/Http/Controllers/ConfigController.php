@@ -26,13 +26,9 @@ class ConfigController extends Controller
 
     public function NewArticle(Request $request){
         $articulo = new Articulo();
-
-
-
     	$request->get('title','description','category','file');
-
         $requestFile = $request->get('file');
-        dd(Input::file('file'));
+        dd(Request::file('file'));
 
         if(Input::hasFile('file')){
             $file = Input::file('file');
