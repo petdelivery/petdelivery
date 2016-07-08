@@ -23,7 +23,7 @@ Route::get('/articles', 'HomeController@articles');
 Route::get('/article/{id}', 'HomeController@articleDetail');
 
 Route::group(['middleware' => 'auth'], function () {
-	Route::get('config/article/new','ConfigController@NewArticle');
+	Route::post('config/article/new','ConfigController@NewArticle');
 	Route::get('config/article/remove/{id}','ConfigController@RemoveArticle');
 	Route::get('config/articles/{categoria?}','ConfigController@ListArticles');
 });
