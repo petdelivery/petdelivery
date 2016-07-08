@@ -3,6 +3,19 @@
 @section('content')
 
 <!-- -->
+<div>
+     <div class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="http://handsontek.net/demoimages/tiles/neews.png" class="img-responsive"/>
+                </div>
+                <div class="item">
+                  <img src="http://handsontek.net/demoimages/tiles/neews2.png" class="img-responsive"/>
+                </div>
+              </div>
+    </div>
+</div>
 <div class="row hero_image">
     
 </div>
@@ -16,7 +29,7 @@
         @foreach($articles as $article)
         <div class=" panel col-md-4 bordered">
             <a class="btn" href="article/{{$article->id}}">
-                <img src="/uploads/{{$article->image}}" width="100%">
+                <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
             </a>
             <h4>
                 {{ $article->title}}
@@ -251,13 +264,13 @@
                       <h3 class="tilecaption"><i class="fa fa-child fa-4x"></i></h3>
                     </div>
                     <div class="item">
-                      <h3 class="tilecaption">Customize your tiles</h3>
+                      <h3 class="tilecaption">Gatos</h3>
                     </div>
                     <div class="item">
-                      <h3 class="tilecaption">Text, Icons, Images</h3>
+                      <h3 class="tilecaption">Perros</h3>
                     </div>
                     <div class="item">
-                      <h3 class="tilecaption">Combine them and create your metro style</h3>
+                      <h3 class="tilecaption">Accesorios</h3>
                     </div>
                   
                   </div>
