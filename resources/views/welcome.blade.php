@@ -8,10 +8,10 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="/assets/images/home.jpg" class="img-responsive"/>
+                  <img src="/assets/images/home.jpg" class=""/>
                 </div>
                 <div class="item">
-                  <img src="/assets/images/home2.jpg" class="img-responsive"/>
+                  <img src="/assets/images/home2.jpg" class=""/>
                 </div>
               </div>
     </div>
