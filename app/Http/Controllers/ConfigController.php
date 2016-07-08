@@ -26,7 +26,7 @@ class ConfigController extends Controller
     public function NewArticle(Request $request){
         $articulo = new Articulo();
     	$request->get('title','description','category','file');
-        $requestFile = $request->get('file');
+        $requestFile = $request->get('file')->getClientOriginalName();
         
 
         if($request->hasFile('file')){
