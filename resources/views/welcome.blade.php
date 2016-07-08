@@ -8,17 +8,15 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="http://handsontek.net/demoimages/tiles/neews.png" class="img-responsive"/>
+                  <img src="/assets/images/home.jpg" class="img-responsive"/>
                 </div>
                 <div class="item">
-                  <img src="http://handsontek.net/demoimages/tiles/neews2.png" class="img-responsive"/>
+                  <img src="/assets/images/home2.jpg" class="img-responsive"/>
                 </div>
               </div>
     </div>
 </div>
-<div class="row hero_image">
-    
-</div>
+
 <hr>
 <!-- -->
 <div class="container">
