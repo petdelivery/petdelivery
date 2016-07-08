@@ -23,7 +23,9 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic' rel='stylesheet' type='text/css'>
     <style>
-        
+        .carousel-inner img {
+          margin: auto;
+        }
         .panel.col-md-4.bordered {
           border: thin solid #cdcdcd;
           border-radius: 0px;}
