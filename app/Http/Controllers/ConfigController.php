@@ -43,7 +43,7 @@ class ConfigController extends Controller
         //$requestFile = $request->FileBag->getClientOriginalName();
         
 
-        if($request->hasFile('file') && $request->file('photo')->isValid()){
+        if($request->hasFile('file') && $request->file('file')->isValid()){
         
         $file = $request->file('file');
         $directory_path =  public_path() . '/uploads';
