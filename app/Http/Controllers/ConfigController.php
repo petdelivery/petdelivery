@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
 use App\Articulo;
 use \Input as Input;
 
@@ -26,12 +25,12 @@ class ConfigController extends Controller
 
     public function NewArticle(Request $request){
         $articulo = new Articulo();
-         dd($request);
     	$request->get('title','description','category','file');
         $requestFile = $request->get('file');
         
 
         if($request->hasFile('file')){
+            dd($request);
           $request->file('file')->move('uploads');
           $articulo->image=$requestFile;
         }
