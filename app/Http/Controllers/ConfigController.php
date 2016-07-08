@@ -23,12 +23,15 @@ class ConfigController extends Controller
         return view('config',['articulos'=>Articulo::where('category',$category)->get(),'category'=>$category]);
     }
 
+
     public function NewArticle(Request $request){
         $articulo = new Articulo();
 
 
 
     	$request->get('title','description','category','file');
+
+        dd($request);
 
         if(Input::hasFile('file')){
             $file = Input::file('file');
