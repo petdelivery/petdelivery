@@ -30,7 +30,7 @@
                         </div>
                         <div class="panel-footer">Nuevo Articulo<div>
 
-                            <form class="form-horizontal"  action="./article/new" method="_POST" snctype="multipart/form-data">
+                            <form class="form-horizontal"  action="./article/new" method="post" snctype="multipart/form-data">
                                 <fieldset>
 
                                 <!-- Text input-->
