@@ -24,16 +24,29 @@ class ConfigController extends Controller
 
 
     public function NewArticle(Request $request){
+
+        $input = $request->all();
+        $file = array_get($input,'file');
+
+        $destinationPath = 'uploads';
+            // GET THE FILE EXTENSION
+        $extension = $file->getClientOriginalExtension();
+            // RENAME THE UPLOAD WITH RANDOM NUMBER
+        $fileName = rand(11111, 99999) . '.' . $extension;
+            // MOVE THE UPLOADED FILES TO THE DESTINATION DIRECTORY
+        $upload_success = $file->move($destinationPath, $fileName);
+
+
         $articulo = new Articulo();
-    	$data=$request->get('title','description','category','file');
-        var_dump($file = $request->file('file'));
+    	//$data=$request->get('title','description','category','file');
+       
         //$requestFile = $request->FileBag->getClientOriginalName();
         
 
         //if($request->hasFile('file')){
           
           $request->file('file')->move('uploads');
-          $articulo->image=$request->file('file');
+          $articulo->image=$fileName;
         //}
     	
     	$articulo->title=$request['title'];
