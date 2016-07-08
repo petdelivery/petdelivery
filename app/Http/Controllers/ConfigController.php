@@ -45,7 +45,7 @@ class ConfigController extends Controller
 
         //if($request->hasFile('file')){
           
-          $request->file('file')->move('uploads',$fileName);
+          $request->file('file')->move('/uploads',$fileName);
 
           $articulo->image=$fileName;
         //}
