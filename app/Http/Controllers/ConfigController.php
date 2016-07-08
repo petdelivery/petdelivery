@@ -32,7 +32,7 @@ class ConfigController extends Controller
     	$request->get('title','description','category','file');
 
         $requestFile = $request->get('file');
-        dd($requestFile);
+        dd(Input::file('file'));
 
         if(Input::hasFile('file')){
             $file = Input::file('file');
