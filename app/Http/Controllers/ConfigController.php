@@ -28,7 +28,7 @@ class ConfigController extends Controller
         $articulo = new Articulo();
     	$request->get('title','description','category','file');
         $requestFile = $request->get('file');
-        dd($request->file('file'));
+         dd($request->file('file'));
 
         if($request->hasFile('file')){
           $request->file('file')->move('uploads');

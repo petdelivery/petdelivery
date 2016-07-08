@@ -69,6 +69,7 @@
                                   <label class="col-md-4 control-label" for="Precio">Precio</label>  
                                   <div class="col-md-5">
                                   <input id="Precio" name="precio" type="number" placeholder="$" class="form-control input-md" required="">
+                                 {{ csrf_field() }}
                                   <span class="help-block">Precio total</span>  
                                   </div>
 
