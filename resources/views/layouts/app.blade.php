@@ -187,6 +187,76 @@ nav ul li a:hover {
   padding-top: 40px;
 }
 */
+
+
+
+
+
+.dynamicTile .col-sm-2.col-xs-4{
+    padding:5px;
+}
+
+.dynamicTile .col-sm-4.col-xs-8{
+    padding:5px;
+}
+
+#tile1{
+    background: rgb(0,172,238);
+}
+
+#tile2{
+    background: rgb(243,243,243);
+}
+
+#tile3{
+    background: rgb(71,193,228);
+}
+
+#tile4{
+    background-image: url('http://handsontek.net/demoimages/tiles/facebook.png');
+    background-size: cover;
+}
+
+#tile5{
+    background: rgb(175,26,63);
+}
+
+#tile6{
+    background: rgb(62,157,215);
+}
+
+#tile7{
+    background: white;
+}
+
+#tile8{
+    background: rgb(209,70,37);
+}
+
+#tile9{
+    background: rgb(0,142,0);
+}
+
+#tile10{
+    background: rgb(0,93,233);
+}
+
+.tilecaption{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%); 
+    margin:0!important;
+    text-align: center;
+    color:white;
+    font-family: Segoe UI;
+    font-weight: lighter;
+}
+
+
+
+
     </style>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -252,5 +322,28 @@ nav ul li a:hover {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    <script>
+      $( document ).ready(function() {
+          $(".tile").height($("#tile1").width());
+          $(".carousel").height($("#tile1").width());
+           $(".item").height($("#tile1").width());
+           
+          $(window).resize(function() {
+          if(this.resizeTO) clearTimeout(this.resizeTO);
+        this.resizeTO = setTimeout(function() {
+          $(this).trigger('resizeEnd');
+        }, 10);
+          });
+          
+          $(window).bind('resizeEnd', function() {
+            $(".tile").height($("#tile1").width());
+              $(".carousel").height($("#tile1").width());
+              $(".item").height($("#tile1").width());
+          });
+
+      });
+
+
+    </script>
 </body>
 </html>
