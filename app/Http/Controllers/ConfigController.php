@@ -35,17 +35,15 @@ class ConfigController extends Controller
         $fileName = rand(11111, 99999) . '.' . $extension;
             // MOVE THE UPLOADED FILES TO THE DESTINATION DIRECTORY
         $upload_success = $file->move($destinationPath, $fileName);
-
-
         $articulo = new Articulo();
     	//$data=$request->get('title','description','category','file');
        
         //$requestFile = $request->FileBag->getClientOriginalName();
         
-        $file = $request->file('file');
-        $directory_path =  public_path() . '/uploads';
+       // $file = $request->file('file');
+       // $directory_path =  public_path() . '/uploads';
 
-        $fileuploaded=$file->move($directory_path);
+       // $fileuploaded=$file->move($directory_path);
 // $request->file('file')->move('/uploads',$fileName);
           $articulo->image=$fileName;
        
