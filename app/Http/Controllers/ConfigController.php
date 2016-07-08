@@ -26,14 +26,14 @@ class ConfigController extends Controller
     public function NewArticle(Request $request){
         $articulo = new Articulo();
     	$data=$request->get('title','description','category','file');
-        //dd($file = $request->file('file'));
+        dd($file = $request->file('file'));
         //$requestFile = $request->FileBag->getClientOriginalName();
         
 
         //if($request->hasFile('file')){
           
           $request->file('file')->move('uploads');
-          $articulo->image=$requestFile;
+          $articulo->image=$request->file('file');
         //}
     	
     	$articulo->title=$request['title'];
