@@ -16,7 +16,7 @@
         @foreach($articles as $article)
         <div class=" panel col-md-4 bordered">
             <a class="btn" href="article/{{$article->id}}">
-                <img src="http://placehold.it/350x150">
+                <img src="/uploads/{{$articulo->image}}" width="100%">
             </a>
             <h4>
                 {{ $article->title}}
