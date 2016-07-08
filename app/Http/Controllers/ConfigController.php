@@ -43,18 +43,16 @@ class ConfigController extends Controller
         //$requestFile = $request->FileBag->getClientOriginalName();
         
 
-        //if($request->hasFile('file')){
-        //
-        $file = $request->file('archive-file');
+        if($request->hasFile('file')){
+        
+        $file = $request->file('file');
         $directory_path =  public_path() . '/uploads/';
+        $fileuploaded=$file->move($directory_path);
+        var_dump($fileuploaded);
 
-        $file->move($directory_path);
-
-          
          // $request->file('file')->move('/uploads',$fileName);
-
           $articulo->image=$fileName;
-        //}
+        }
     	
     	$articulo->title=$request['title'];
     	$articulo->description= $request['description'];
