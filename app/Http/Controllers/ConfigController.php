@@ -30,10 +30,9 @@ class ConfigController extends Controller
         $requestFile = $request->get('file');
         dd($request->file('file'));
 
-        if(Input::hasFile('file')){
-            $file = Input::file('file');
-            $file->move('uploads',$file->getClientOriginalName());
-            $articulo->image=$file->getClientOriginalName();
+        if($request->hasFile('file')){
+          $request->file('file')->move('uploads');
+          $articulo->image=$requestFile;
         }
     	
     	$articulo->title=$request['title'];
