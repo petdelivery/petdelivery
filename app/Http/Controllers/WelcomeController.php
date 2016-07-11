@@ -28,7 +28,7 @@ class WelcomeController extends Controller
     public function index()
     {
 
-       
+       /*
         $images[] = '/assets/images/home.jpg';
         $images[] = '/assets/images/home2.jpg';
 
@@ -42,11 +42,13 @@ class WelcomeController extends Controller
 
         $images = [$src1,$src2];
         
+*/
+
         $posts=App\Post::where('destacado',1)->get();
         
 
 
-        return view('home',['articles'=>$posts,'images'=>$images]);
+        return view('home',['articles'=>$posts]);
     }
 
     public function productDetail($id)
