@@ -29,8 +29,8 @@ class WelcomeController extends Controller
     {
 
        
-        $images[] = '/assets/images/home.jpg';
-        $images[] = '/assets/images/home2.jpg';
+        $images[] = '../../../public/assets/images/home.jpg';
+        $images[] = '../../../public/assets/images/home2.jpg';
 
         // Read image path, convert to base64 encoding
         $image1Data = base64_encode(file_get_contents($images[0]));
