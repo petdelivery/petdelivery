@@ -4,10 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
-use App\Articulo;
 use App\Post;
 
-class HomeController extends Controller
+class PostController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -16,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        //$this->middleware('auth');
+        $this->middleware('auth');
     }
 
     /**
@@ -25,15 +24,14 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function articles()
+    public function posts()
     {
-
-        return view('home',['articles'=>Articulo::all()]);
+        return view('home',['posts'=>Post::all()  ]);
     }
 
-    public function articleDetail($id)
+    public function postDetail($id)
     {
-        return view('home',['articles'=>Articulo::where('id',$id)->get()]);
+        return view('home',['posts'=>post::where('id',$id)->get()]);
     }
  
 }
