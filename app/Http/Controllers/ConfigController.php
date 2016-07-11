@@ -14,7 +14,7 @@ class ConfigController extends Controller
         $this->middleware('auth');
     }
 
-    public function ListArticles($category=null){
+    public function ListProducts($category=null){
 
     if(!$category)
     	return view('config',['articulos'=>Articulo::all(),'category'=>$category]);
@@ -23,47 +23,33 @@ class ConfigController extends Controller
     }
 
 
-    public function NewArticle(Request $request){
+    public function NewProduct(Request $request){
 
         $input = $request->all();
         $file = array_get($input,'file');
 
         $destinationPath = 'uploads';
-            // GET THE FILE EXTENSION
         $extension = $file->getClientOriginalExtension();
-            // RENAME THE UPLOAD WITH RANDOM NUMBER
         $fileName = rand(11111, 99999) . '.' . $extension;
-            // MOVE THE UPLOADED FILES TO THE DESTINATION DIRECTORY
         $upload_success = $file->move($destinationPath, $fileName);
         $articulo = new Articulo();
-    	//$data=$request->get('title','description','category','file');
-       
-        //$requestFile = $request->FileBag->getClientOriginalName();
-        
-       // $file = $request->file('file');
-       // $directory_path =  public_path() . '/uploads';
-
-       // $fileuploaded=$file->move($directory_path);
-// $request->file('file')->move('/uploads',$fileName);
-          $articulo->image=$fileName;
-       
-    	
+        $articulo->image=$fileName;
     	$articulo->title=$request['title'];
     	$articulo->description= $request['description'];
         $articulo->category=$request['category'];
         $articulo->precio=$request['precio'];
         $articulo->destacado=$request['destacado'];
     	$articulo->save();
-  		return redirect('/config/articles/');
+  		return redirect('/config/products/');
     
     }
 
-    public function RemoveArticle($id){
+    public function RemoveProduct($id){
 
 
         $articulo =Articulo::where('id', $id)->delete();
 
-        return redirect('/config/articles/');
+        return redirect('/config/products/');
     
     }
 }

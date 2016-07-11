@@ -25,15 +25,15 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function articles()
+    public function products()
     {
 
-        return view('home',['articles'=>Articulo::all()]);
+        return view('home',['products'=>Articulo::all()]);
     }
 
-    public function articleDetail($id)
+    public function productDetail($id)
     {
-        return view('home',['articles'=>Articulo::where('id',$id)->get()]);
+        return view('home',['products'=>Articulo::where('id',$id)->get()]);
     }
  
 }

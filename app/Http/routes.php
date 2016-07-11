@@ -18,11 +18,11 @@ Route::get('/', function () {
 Route::auth();
 
 
-Route::get('/articles', 'HomeController@articles');
-Route::get('/article/{id}', 'HomeController@articleDetail');
+Route::get('/products', 'HomeController@products');
+Route::get('/product/{id}', 'HomeController@productDetail');
 
 Route::group(['middleware' => 'auth'], function () {
-	Route::post('config/article/new','ConfigController@NewArticle');
-	Route::get('config/article/remove/{id}','ConfigController@RemoveArticle');
-	Route::get('config/articles/{categoria?}','ConfigController@ListArticles');
+	Route::post('config/product/new','ConfigController@NewProduct');
+	Route::get('config/product/remove/{id}','ConfigController@RemoveProduct');
+	Route::get('config/products/{categoria?}','ConfigController@ListProducts');
 });

@@ -293,7 +293,7 @@ nav ul li a:hover {
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                     <li><a href="{{ url('/articles') }}">Articulos</a></li>
+                     <li><a href="{{ url('/products') }}">Productos</a></li>
                 </ul>
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
