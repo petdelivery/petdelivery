@@ -37,8 +37,8 @@ class WelcomeController extends Controller
         $image2Data = base64_encode(file_get_contents($images[1]));
 
         // Format the image SRC:  data:{mime};base64,{data};
-        $src1 = 'data: '.mime_content_type($image1Data).';base64,'.$imageData1Data;
-        $src2 = 'data: '.mime_content_type($image2Data).';base64,'.$imageData2Data;
+        $src1 = 'data: '.mime_content_type($image1Data).';base64,'.$image1Data;
+        $src2 = 'data: '.mime_content_type($image2Data).';base64,'.$image2Data;
 
         $images = [$src1,$src2];
         
