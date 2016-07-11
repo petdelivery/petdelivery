@@ -30,11 +30,12 @@ class WelcomeController extends Controller
 
        
 
+        $articulos=Articulo::where('destacado',1)->get();
         $posts=Post::where('destacado',1)->get();
         
 
 
-        return view('welcome',['articles'=>$posts]);
+        return view('welcome',['articles'=>$articulos,'posts'=>$posts]);
     }
 
     public function productDetail($id)
