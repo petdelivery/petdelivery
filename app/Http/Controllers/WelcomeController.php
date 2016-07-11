@@ -46,7 +46,7 @@ class HomeController extends Controller
         
 
 
-        return view('home',['articles'=>$posts],'images'=>$images);
+        return view('home',['articles'=>$posts]);
     }
 
     public function productDetail($id)
