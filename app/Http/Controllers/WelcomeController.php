@@ -28,7 +28,7 @@ class HomeController extends Controller
     public function index()
     {
 
-                // A few settings
+      /*  
         $images[] = '/assets/images/home.jpg';
         $images[] = '/assets/images/home2.jpg';
 
@@ -41,7 +41,7 @@ class HomeController extends Controller
         $src2 = 'data: '.mime_content_type($image2Data).';base64,'.$imageData2Data;
 
         $images = [$src1,$src2];
-
+        */
         $posts=App\Post::where('destacado',1)->get();
         
 
