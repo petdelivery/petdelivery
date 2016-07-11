@@ -44,7 +44,7 @@ class WelcomeController extends Controller
         
 */
 
-        $posts=App\Post::where('destacado',1)->get();
+        $posts=Post::where('destacado',1)->get();
         
 
 
