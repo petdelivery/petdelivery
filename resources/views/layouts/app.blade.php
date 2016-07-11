@@ -326,9 +326,12 @@ nav ul li a:hover {
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     <script>
       $( document ).ready(function() {
-          $(".tile").height($("#tile1").width());
-          $(".carousel").height($("#tile1").width());
-           $(".item").height($("#tile1").width());
+        $(".tilehead").height($("#tile1").width());
+
+
+         // $(".tile").height($("#tile1").width());
+         // $(".carousel").height($("#tile1").width());
+         //  $(".item").height($("#tile1").width());
            
           $(window).resize(function() {
           if(this.resizeTO) clearTimeout(this.resizeTO);
