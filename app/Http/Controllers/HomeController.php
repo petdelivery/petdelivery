@@ -28,12 +28,12 @@ class HomeController extends Controller
     public function products()
     {
 
-        return view('home',['products'=>Articulo::all()]);
+        return view('home',['articles'=>Articulo::all()]);
     }
 
     public function productDetail($id)
     {
-        return view('home',['products'=>Articulo::where('id',$id)->get()]);
+        return view('home',['articles'=>Articulo::where('id',$id)->get()]);
     }
  
 }
