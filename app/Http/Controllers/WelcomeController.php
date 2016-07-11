@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Articulo;
 use App\Post;
 
-class HomeController extends Controller
+class WelcomeController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -28,7 +28,7 @@ class HomeController extends Controller
     public function index()
     {
 
-      /*  
+       
         $images[] = '/assets/images/home.jpg';
         $images[] = '/assets/images/home2.jpg';
 
@@ -41,12 +41,12 @@ class HomeController extends Controller
         $src2 = 'data: '.mime_content_type($image2Data).';base64,'.$imageData2Data;
 
         $images = [$src1,$src2];
-        */
+        
         $posts=App\Post::where('destacado',1)->get();
         
 
 
-        return view('home',['articles'=>$posts]);
+        return view('home',['articles'=>$posts,'images'=>$images]);
     }
 
     public function productDetail($id)
