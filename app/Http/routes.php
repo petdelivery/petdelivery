@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome',['articles'=>App\Articulo::where('destacado',1)->get(),'posts'=>App\Post::where('destacado',1)->get()]);
+    return view('welcome','WelcomeController@index');
 });
 
 Route::auth();

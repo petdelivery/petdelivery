@@ -7,9 +7,11 @@
      <div class="carousel slide" data-ride="carousel">
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
+                @foreach($images as $image)
                 <div class="item active">
-                  <img src="/assets/images/home.jpg" class=""/>
+                  <img src="$image" class=""/>
                 </div>
+                @endforeach
                 <div class="item">
                   <img src="/assets/images/home2.jpg" class=""/>
                 </div>
