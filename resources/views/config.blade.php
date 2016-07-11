@@ -12,9 +12,9 @@
 
                     <div class="panel-heading">Categorias</div>
 
-                    <a href="{{ url('/config/articles/1')}}" class="btn btn-default {{$category==1?'btn-success':''}}">Perros</a> 
-                    <a href="{{ url('/config/articles/2')}}" class="btn btn-default {{$category==2?'btn-success':''}}">Gatos</a> 
-                    <a href="{{ url('/config/articles/3')}}" class="btn btn-default {{$category==3?'btn-success':''}}">Accesorios</a> 
+                    <a href="{{ url('/config/products/1')}}" class="btn btn-default {{$category==1?'btn-success':''}}">Perros</a> 
+                    <a href="{{ url('/config/products/2')}}" class="btn btn-default {{$category==2?'btn-success':''}}">Gatos</a> 
+                    <a href="{{ url('/config/products/3')}}" class="btn btn-default {{$category==3?'btn-success':''}}">Accesorios</a> 
 
                    </div>
                     <div class="panel col-sm-12">
@@ -31,7 +31,7 @@
                         </div>
                         <div class="panel-footer">Nuevo Articulo<div>
 
-                            <form class="form-horizontal"  action="./article/new" method="post"  enctype="multipart/form-data">
+                            <form class="form-horizontal"  action="./product/new" method="post"  enctype="multipart/form-data">
                                 <fieldset>
 
                                 <!-- Text input-->
