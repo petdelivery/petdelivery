@@ -197,7 +197,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row   windowstiles">
             <div class="col-sm-4 col-xs-8">
                 <div id="tile7" class="tile">
                  

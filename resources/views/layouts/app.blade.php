@@ -329,9 +329,9 @@ nav ul li a:hover {
         $(".tilehead").height($("#tile1").width());
 
 
-         // $(".tile").height($("#tile1").width());
-         // $(".carousel").height($("#tile1").width());
-         //  $(".item").height($("#tile1").width());
+          $(".windowstiles.tile").height($("#tile1").width());
+          $(".windowstiles.carousel").height($("#tile1").width());
+           $(".windowstiles.item").height($("#tile1").width());
            
           $(window).resize(function() {
           if(this.resizeTO) clearTimeout(this.resizeTO);
