@@ -25,7 +25,7 @@ class WelcomeController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function index()
+    public function inicio()
     {
 
        /*
@@ -48,7 +48,7 @@ class WelcomeController extends Controller
         
 
 
-        return view('home',['articles'=>$posts]);
+        return view('welcome',['articles'=>$posts]);
     }
 
     public function productDetail($id)
