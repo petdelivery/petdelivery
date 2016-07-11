@@ -25,6 +25,7 @@
 
 
     <div class="row">
+        var_dump($articles);
 
         @foreach($articles as $article)
         <div class=" panel col-md-4 bordered">
