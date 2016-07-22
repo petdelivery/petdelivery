@@ -377,6 +377,9 @@ nav ul li a:hover {
                 <ul class="nav navbar-nav">
                      <li><a href="{{ url('/products') }}">Productos</a></li>
                 </ul>
+                 <ul class="nav navbar-nav">
+                     <li><a href="{{ url('/nosotros') }}">Nosotros</a></li>
+                </ul>
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->

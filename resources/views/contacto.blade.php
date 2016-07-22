@@ -28,9 +28,9 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
-                <div class="panel-heading">Tambien puedes hacer tus pedidos por whatsapp</div>
+                <div class="panel-heading bg-success">Tambien puedes hacer tus pedidos por whatsapp</div>
 
-                <div class="panel-body">
+                <div class="panel-body text-center">
                    <a href="whatsapp://send?text=http://www.petdelivery.co" data-action="share/whatsapp/share">
                    	305-7064871
                    </a> 
