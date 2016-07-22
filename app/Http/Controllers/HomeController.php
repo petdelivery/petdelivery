@@ -30,9 +30,9 @@ class HomeController extends Controller
 
         return view('home',['articles'=>Articulo::all()]);
     }
-    public function orden()
+    public function orden(Request $request)
     {
-            $data= $this->request->all();
+            $data= $request->all();
             var_dump($data);
 
 
