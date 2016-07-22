@@ -6,6 +6,23 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
+                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Ordenes
+                </a>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Ordenes
+                </button>
+                <div class="collapse" id="collapseExample">
+                  <div class="well">
+                    @foreach($ordenes as $orden)
+                      <ul>
+                        <li>
+                         {{ $orden->producto }} {{$orden->email}}
+                        </li>
+                      </ul>
+                    @endforeach
+                  </div>
+                </div>
 
                 <div class="panel-body">
                    <div class="panel col-sm-12">

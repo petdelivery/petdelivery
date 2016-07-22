@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Articulo;
 use \Input as Input;
+use App\Orden;
 
 class ConfigController extends Controller
 {
@@ -16,10 +17,13 @@ class ConfigController extends Controller
 
     public function ListProducts($category=null){
 
+
+        $ordenes = Orden::all();
+
     if(!$category)
-    	return view('config',['articulos'=>Articulo::all(),'category'=>$category]);
+    	return view('config',['articulos'=>Articulo::all(),'category'=>$category,'ordenes'=>$ordenes]);
     else 
-        return view('config',['articulos'=>Articulo::where('category',$category)->get(),'category'=>$category]);
+        return view('config',['articulos'=>Articulo::where('category',$category)->get(),'category'=>$category,'ordenes'=>$ordenes]);
     }
 
 
