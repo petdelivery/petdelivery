@@ -18,7 +18,7 @@
 	
 
             @foreach($articles as $article)
-            <div class=" panel col-md-4 bordered">
+            <div class=" panel panel-default bordered">
                 <a class="btn" href="article/{{$article->id}}">
                     <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
                 </a>
