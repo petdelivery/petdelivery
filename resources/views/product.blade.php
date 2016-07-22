@@ -13,6 +13,9 @@
 
 
         <div class="row">
+        	<form action="">
+<div class="col-sm-4">
+	
 
             @foreach($articles as $article)
             <div class=" panel col-md-4 bordered">
@@ -29,8 +32,21 @@
                     <a class="btn" href="article/{{ $article->id}}">{{ $article->precio }} --> Ordenar</a>
                 </p>
             </div>
-            @endforeach
 
+
+            @endforeach
+</div>
+<div class="col-sm-8">
+	
+		<input type="text" placeholder="Nombre">
+		<input type="text" placeholder="Email">
+		<input type="text" placeholder="Telefono">
+		<button>Ordenar</button>
+	
+	
+
+</div>
+</form>
         </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
