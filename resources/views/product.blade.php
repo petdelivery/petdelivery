@@ -18,7 +18,8 @@
 	
 
             @foreach($articles as $article)
-            <div class=" panel panel-default bordered">
+            <div class=" panel panel-body bordered">
+
                 <a class="btn" href="article/{{$article->id}}">
                     <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
                 </a>
@@ -31,9 +32,9 @@
                 <p>
                     <select class="form-control">
 					  <option selected="selected">1 x {{ $article->precio }} </option>
-					  <option>2 x{{ $article->precio * 2 }} </option>
-					  <option>3 x {{ $article->precio * 3 }} </option>
-					  <option>4 x {{ $article->precio*4 }} </option>
+					  <option>2 x {{ ($article->precio * 2) - 2000 }} </option>
+					  <option>3 x {{ ($article->precio * 3 ) - 3000}} </option>
+					  <option>4 x {{ ($article->precio * 4) - 4000 }} </option>
 					</select>
                 </p>
             </div>
@@ -44,8 +45,12 @@
 <div class="col-sm-8">
 	
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
+    <label for="exampleInputEmail1">Correo electronico</label>
     <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+  </div>
+   <div class="form-group">
+    <label for="exampleInputEmail1">Direccion</label>
+    <input name="direccion" type="text" class="form-control" id="email" placeholder="Email">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Numero de telefono</label>
@@ -53,7 +58,7 @@
   </div>
   <div class="checkbox">
     <label>
-      <input type="checkbox" name="llamame"> llamame
+      <input type="checkbox" name="llamame"> Llamame
     </label>
   </div>
   <button type="submit"  class="btn btn-default">Enviar</button>
@@ -66,7 +71,9 @@
                 <div class="panel-heading">Tambien puedes hacer tus pedidos por whatsapp</div>
 
                 <div class="panel-body">
-                    305-7064871
+                   <a href="whatsapp://send?text=<?php echo get_permalink(); ?>" data-action="share/whatsapp/share">
+                   	305-7064871
+                   </a> 
                 </div>
             </div>
         </div>
