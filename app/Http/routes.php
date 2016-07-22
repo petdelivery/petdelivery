@@ -21,7 +21,7 @@ Route::get('/products', 'HomeController@products');
 Route::get('/product/{id}', 'HomeController@productDetail');
 
 Route::post('/orden', 'HomeController@orden');
-Route::post('/nosotros', 'HomeController@nosotros');
+Route::get('/nosotros', 'HomeController@nosotros');
 
 
 
