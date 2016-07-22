@@ -28,6 +28,7 @@
 
         @foreach($articles as $article)
         <div class=" panel col-md-4 bordered">
+          <div class="product-description-home">
             <a class="btn" href="article/{{$article->id}}">
                 <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
             </a>
@@ -37,9 +38,13 @@
             <p>
                 {{ $article->description}}
             </p>
-            <p>
-                <a class="btn" href="article/{{ $article->id}}">{{ $article->precio }} --> Ordenar</a>
-            </p>
+          </div>
+          <div class="col-sm-6 text-center bg-danger">
+            {{ $article->precio }} 
+          </div>
+           <div class="col-sm-6 text-center bg-success">
+            <a class="btn" href="article/{{ $article->id}}">Ordenar </a>
+          </div>
         </div>
         
         @endforeach
