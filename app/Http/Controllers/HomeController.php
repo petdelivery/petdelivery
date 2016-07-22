@@ -33,11 +33,23 @@ class HomeController extends Controller
     public function orden(Request $request)
     {
             $data= $request->all();
-            var_dump($data);
             $email=$data['email'];
             $direccion=$data['direccion'];
             $telefono=$data['telefono'];
+            $cantidad=$data['cantidad'];
+            $producto=$data['producto'];
+            $llamame=$data['llamame'];
 
+            $orden = new Orden();
+            $orden->email=$email;
+            $orden->direccion=$direccion;
+            $orden->telefono = $telefono;
+
+            $orden->cantidad=$cantidad;
+            $orden->producto= $producto;
+            $orden->llamame= $llamame;
+            $orden= $orden->save();
+            var_dump($orden);
 
         return view('home',['articles'=>Articulo::all()]);
     }
