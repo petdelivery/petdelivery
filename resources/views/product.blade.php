@@ -69,7 +69,7 @@
                 <div class="panel-heading">Tambien puedes hacer tus pedidos por whatsapp</div>
 
                 <div class="panel-body">
-                   <a href="whatsapp://send?text={{ $_SERVER['HTTP_REFERER'] }}" data-action="share/whatsapp/share">
+                   <a href="whatsapp://send?text=http://www.petdelivery.co" data-action="share/whatsapp/share">
                    	305-7064871
                    </a> 
                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.petdelivery.co&layout=button_count&size=small&mobile_iframe=true&appId=500499870153256&width=91&height=20" width="91" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
