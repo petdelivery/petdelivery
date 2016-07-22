@@ -26,8 +26,7 @@
 
 
         #carousel {
-          width: 200px;
-          height: 200px;
+         
           background: url(clouds-full.png) repeat-y;
           -webkit-animation: backgroundScroll 20s linear infinite;
           animation: backgroundScroll 20s linear infinite;
