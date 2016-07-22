@@ -17,7 +17,7 @@
                     @foreach($ordenes as $orden)
                       <ul>
                         <li>
-                         {{ $orden->producto }} {{$orden->email}}
+                         {{ $orden->producto }} \ {{$orden->email}} \ {{ $orden-cantidad}} \{{ $orden-telefono}} \{{ $orden-created_at}}
                         </li>
                       </ul>
                     @endforeach

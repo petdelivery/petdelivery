@@ -19,6 +19,7 @@ class ConfigController extends Controller
 
 
         $ordenes = Orden::all();
+        
 
     if(!$category)
     	return view('config',['articulos'=>Articulo::all(),'category'=>$category,'ordenes'=>$ordenes]);

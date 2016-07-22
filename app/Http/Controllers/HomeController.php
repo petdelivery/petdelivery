@@ -47,16 +47,17 @@ class HomeController extends Controller
             $llamame=$data['llamame'];
 
             $orden = new Orden();
+
             $orden->email=$email;
             $orden->direccion=$direccion;
             $orden->telefono = $telefono;
-
             $orden->cantidad=$cantidad;
             $orden->producto= $producto;
             $orden->llamame= $llamame;
+            
             $orden= $orden->save();
 
-            
+
     return redirect()->back();
 
        // return view('home',['articles'=>Articulo::all()]);
