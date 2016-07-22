@@ -29,16 +29,17 @@
                 </p>
                 <p>
                     <select class="form-control">
-					  <option selected="selected">1 x {{ $article->precio }} </option>
+					  <option selected="selected" >1 x {{ $article->precio }} </option>
 					  <option>2 x {{ ($article->precio * 2) - 2000 }} </option>
 					  <option>3 x {{ ($article->precio * 3 ) - 3000}} </option>
 					  <option>4 x {{ ($article->precio * 4) - 4000 }} </option>
 					</select>
                 </p>
             </div>
-
-
             @endforeach
+            {{ csrf_token() }}
+
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
 </div>
 <div class="col-sm-8">
 	
@@ -83,4 +84,12 @@
         </div>
     </div>
 </div>
+
+<footer>
+    <div class="row text-center" style="background:black;color;white;">
+
+       Todos los  derechos reservados
+        
+    </div>
+</footer>
 @endsection
