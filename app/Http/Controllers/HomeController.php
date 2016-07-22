@@ -30,6 +30,14 @@ class HomeController extends Controller
 
         return view('home',['articles'=>Articulo::all()]);
     }
+    public function orden($request)
+    {
+            $data= $request->all();
+            var_dump($data);
+            
+
+        return view('home',['articles'=>Articulo::all()]);
+    }
 
 
     public function productDetail($id)

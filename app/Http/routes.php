@@ -20,6 +20,10 @@ Route::auth();
 Route::get('/products', 'HomeController@products');
 Route::get('/product/{id}', 'HomeController@productDetail');
 
+Route::post('/orden', 'HomeController@orden');
+
+
+
 Route::group(['middleware' => 'auth'], function () {
 	Route::post('config/product/new','ConfigController@NewProduct');
 	Route::get('config/product/remove/{id}','ConfigController@RemoveProduct');
