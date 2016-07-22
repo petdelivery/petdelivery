@@ -99,7 +99,10 @@ body {
 }
 a {
   text-decoration: none;
-}/*
+  color:inherit;
+  text-decoration: none;
+}
+/*
 .blurImg {
   position: relative;
   width: 100%;
@@ -261,8 +264,9 @@ nav ul li a:hover {
     background: rgb(0,142,0);
 }
 
-#tile10{
+#tile10 {
     background: rgb(0,93,233);
+    height: 185px;
 }
 
 .tilecaption{
