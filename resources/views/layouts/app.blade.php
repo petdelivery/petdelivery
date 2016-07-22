@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="description" content="pet shop bogota zona norte, entregaa domicilio, las mejores marcas de comida para gato o perro al mejor precio.">
     <title>PETDelivery</title>
 
     <!-- Fonts -->
