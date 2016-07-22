@@ -4,7 +4,7 @@
 
 <!-- -->
 <div>
-     <div class="carousel slide" data-ride="carousel">
+     <div id="carousel" class="carousel slide" data-ride="carousel">
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                

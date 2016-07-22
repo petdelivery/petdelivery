@@ -23,6 +23,29 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic' rel='stylesheet' type='text/css'>
     <style>
+
+
+        #carousel {
+          width: 200px;
+          height: 200px;
+          background: url(clouds-full.png) repeat-y;
+          -webkit-animation: backgroundScroll 20s linear infinite;
+          animation: backgroundScroll 20s linear infinite;
+          }
+           
+          @-webkit-keyframes backgroundScroll {
+          from {background-position: 0 0;}
+          to {background-position: -400px 0;}
+          }
+           
+          @keyframes backgroundScroll {
+          from {background-position: 0 0;}
+          to {background-position: -400px 0;}
+          }
+        body {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
         .carousel-inner img {
           margin: auto;
         }

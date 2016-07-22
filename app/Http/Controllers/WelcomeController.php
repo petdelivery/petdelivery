@@ -28,7 +28,6 @@ class WelcomeController extends Controller
     public function inicio()
     {
 
-       
 
         $articulos=Articulo::where('destacado',1)->get();
         $posts=Post::where('destacado',1)->get();
