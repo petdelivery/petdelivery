@@ -28,7 +28,7 @@
                     {{ $article->description}}
                 </p>
                 <p>
-                    <select class="form-control">
+                    <select class="form-control" name="cantidad">
 					  <option selected="selected" >1 x {{ $article->precio }} </option>
 					  <option>2 x {{ ($article->precio * 2) - 2000 }} </option>
 					  <option>3 x {{ ($article->precio * 3 ) - 3000}} </option>
@@ -40,6 +40,7 @@
             {{ csrf_token() }}
 
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
+            <input type="hidden" name="producto" value="{{ $article->id }}">
 </div>
 <div class="col-sm-8">
 	

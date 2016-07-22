@@ -34,6 +34,9 @@ class HomeController extends Controller
     {
             $data= $request->all();
             var_dump($data);
+            $email=$data['email'];
+            $direccion=$data['direccion'];
+            $telefono=$data['telefono'];
 
 
         return view('home',['articles'=>Articulo::all()]);
