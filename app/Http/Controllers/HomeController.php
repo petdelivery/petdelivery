@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Articulo;
-use App\Post;
+use App\Orden;
+
 
 class HomeController extends Controller
 {
@@ -49,7 +50,6 @@ class HomeController extends Controller
             $orden->producto= $producto;
             $orden->llamame= $llamame;
             $orden= $orden->save();
-            var_dump($orden);
 
         return view('home',['articles'=>Articulo::all()]);
     }
