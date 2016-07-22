@@ -25,10 +25,18 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
+
+         .btn-success {
+            color: #fff;
+            background-color: #8AB839;
+            border-color: #fff;
+            font-size: 18px;
+            padding: 10px 30px;
+        }
         .bg-verde{
               background: #8ab839;
               color:white;
-              
+
         }
          h3 {
             font-size: 20px;
