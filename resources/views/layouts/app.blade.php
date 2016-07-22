@@ -24,7 +24,9 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic' rel='stylesheet' type='text/css'>
     <style>
 
-
+         h3 {
+            font-size: 20px;
+        }
         #carousel {
          
           background: url(clouds-full.png) repeat-y;
