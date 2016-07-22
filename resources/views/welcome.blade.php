@@ -43,7 +43,7 @@
             <b>{{ $article->precio }} </b>
           </div>
            <div class="text-center bg-success">
-            <a class="btn" href="article/{{ $article->id}}">Ver mas</a>
+            <a class="btn" href="product/{{ $article->id}}">Ver mas</a>
           </div>
         </div>
         
