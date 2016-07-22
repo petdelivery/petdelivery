@@ -25,7 +25,11 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
-
+        .bg-verde{
+              background: #8ab839;
+              color:white;
+              
+        }
          h3 {
             font-size: 20px;
         }
