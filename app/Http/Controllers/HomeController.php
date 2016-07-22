@@ -31,6 +31,11 @@ class HomeController extends Controller
 
         return view('home',['articles'=>Articulo::all()]);
     }
+        public function nosotros()
+    {
+
+        return view('contacto');
+    }
     public function orden(Request $request)
     {
             $data= $request->all();
