@@ -32,7 +32,7 @@ class HomeController extends Controller
     }
     public function orden()
     {
-            $data= Request::all();
+            $data= $this->request->all();
             var_dump($data);
 
 
