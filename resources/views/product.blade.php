@@ -29,10 +29,10 @@
 	                </p>
 	                <p>
 	                    <select class="form-control" name="cantidad">
-						  <option selected="selected" >1 x {{ $article->precio }} </option>
-						  <option>2 x {{ ($article->precio * 2) - 2000 }} </option>
-						  <option>3 x {{ ($article->precio * 3 ) - 3000}} </option>
-						  <option>4 x {{ ($article->precio * 4) - 4000 }} </option>
+						  <option selected="selected" value="1">1 x ${{ $article->precio }} </option>
+						  <option value="2">2 x ${{ ($article->precio * 2) - 2000 }} </option>
+						  <option value="3">3 x ${{ ($article->precio * 3 ) - 3000}} </option>
+						  <option value="4">4 x ${{ ($article->precio * 4) - 4000 }} </option>
 						</select>
 	                </p>
 	            </div>
