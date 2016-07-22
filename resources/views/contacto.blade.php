@@ -10,10 +10,20 @@
                 </div>
 
                 <div class="panel-body">
+                	<div class="panel panel-default">
+                		<div class="panel-body">
+                			<h2>NUESTROS HORARIOS DE ATENCIÓN</h2>
+							<p>lunes a viernes: 09:30 AM a 6:30 PM<br>
+							Sábados: 10:30 AM a 5:00 PM</p>
+
+							<p>
+							Teléfonos: (+57-1) 5100-916 - (+57) 3144055926</p>	
+                		</div>
+                	</div>
 
 
         <div class="row">
-			<div id="map"></div>
+			<div id="map" class="text-center center-block"></div>
         </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1">

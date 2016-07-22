@@ -26,6 +26,7 @@
 
     <div class="row">
       <h2>Las mejores marcas de comida para tu mascota al mejor precio.</h2>
+      {{ isset($noticiaciones)? $noticiaciones:''}}
   
         @foreach($articles as $article)
         <div class="col-md-4 bordered">

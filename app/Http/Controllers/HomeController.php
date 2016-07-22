@@ -56,7 +56,10 @@ class HomeController extends Controller
             $orden->llamame= $llamame;
             $orden= $orden->save();
 
-        return view('home',['articles'=>Articulo::all()]);
+            1
+        return redirect('',['notificacion'=>'Se ha recibido su orden, pronto nos pondremos en contacto con usted']);
+
+       // return view('home',['articles'=>Articulo::all()]);
     }
 
 
