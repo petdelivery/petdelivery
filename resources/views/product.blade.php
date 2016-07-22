@@ -13,10 +13,8 @@
 
 
         <div class="row">
-        	<form action="">
+        	<form action="/orden" method="post">
 <div class="col-sm-4">
-	
-
             @foreach($articles as $article)
             <div class=" panel panel-body bordered">
 
