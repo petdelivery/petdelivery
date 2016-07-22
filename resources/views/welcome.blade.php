@@ -25,22 +25,23 @@
 
 
     <div class="row">
-
+      <h2>Las mejores marcas de comida para tu mascota al mejor precio.</h2>
+  
         @foreach($articles as $article)
         <div class="col-md-4 bordered">
           <div class="product-description-home">
             <a class="btn" href="article/{{$article->id}}">
                 <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
             </a>
-            <h4>
+            <h3>
                 {{ $article->title}}
-            </h4>
+            </h3>
             <p>
                 {{ $article->description}}
             </p>
           </div>
           <div class="text-center bg-info">
-            <b>{{ $article->precio }} </b>
+            <b>${{ $article->precio }} </b>
           </div>
            <div class="text-center bg-success">
             <a class="btn" href="product/{{ $article->id}}">Ver mas</a>
