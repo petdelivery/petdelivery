@@ -54,10 +54,10 @@
     <hr>
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">Haz tus pedidos por whatsapp</div>
+            <div class="panel panel-default text-center">
+                <div class="panel-heading bg-success">Haz tus pedidos por whatsapp</div>
 
-                <div class="panel-body">
+                <div class="panel-body text-center">
                     305-7064871
                 </div>
             </div>
@@ -207,7 +207,7 @@
             </div>
         </div>
 
-        <div class="row   windowstiles">
+        <div class="row   windowstiles hidden">
             <div class="col-sm-4 col-xs-8">
                 <div id="tile7" class="tile">
                  
