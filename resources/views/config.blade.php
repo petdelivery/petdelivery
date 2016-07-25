@@ -9,29 +9,26 @@
                 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                   Ordenes
                 </a>
-                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseArticulos" aria-expanded="false" aria-controls="collapseArticulos">
-                  Articulos
-                </a>
+               
                 <div class="collapse" id="collapseExample">
                   <div class="well">
                      <ul>
                     @foreach($ordenes as $orden)
                          <li class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="box4">
-                                  <figure><img src="/uploads/default.jpg" alt=""></figure>
                                   <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
                                   <a href="{{url('config/order/cancel/'.$orden->id)}}" class="button-close btn-sm  btn btn-danger btn-small">Cancelar</a>
+                                   <a href="{{url('config/order/deliver/'.$orden->id)}}" class="button-close btn-sm  btn btn-danger btn-small">Entregado</a>
                                   <p class="list3title1">  {{ $orden->producto }}</p>
                                   <p class="list3title2">${{$orden->precio}} // {{ $orden->cantidad}}</p>
                                   <p class="list3title3">{{$orden->email}}  // {{ $orden->telefono}} // {{ $orden->created_at}} </p>
-                                  <a href="#" class="btn-link btn-link1">Ver mas<span></span></a>
                                 </div>
                               </li>
                     @endforeach
                     </ul>
                   </div>
                 </div>
-                <div class="panel-body  collapse" id="collapseArticulos">
+                <div class="panel-body" id="divArticulos">
                    <div class="panel col-sm-12">
 
                     <div class="panel-heading">Categorias</div>
