@@ -23,7 +23,6 @@
                     @endforeach
                   </div>
                 </div>
-
                 <div class="panel-body">
                    <div class="panel col-sm-12">
 
@@ -122,8 +121,6 @@
                                 </form>
                             </div>
                         </div>
-
-                    
                 </div>
                 </div>
             </div>
