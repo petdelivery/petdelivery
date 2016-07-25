@@ -21,8 +21,8 @@
                                   <figure><img src="/uploads/default.jpg" alt=""></figure>
                                   <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
                                   <a href="{{url('config/order/cancel/'.$orden->id)}}" class="button-close btn-sm  btn btn-danger btn-small">Cancelar</a>
-                                  <p class="list3title1 {{ $articulo->destacado?'bg-success':''}}">  {{ $orden->producto }}</p>
-                                  <p class="list3title2">${{$articulo->precio}} // {{ $orden->cantidad}}</p>
+                                  <p class="list3title1">  {{ $orden->producto }}</p>
+                                  <p class="list3title2">${{$orden->precio}} // {{ $orden->cantidad}}</p>
                                   <p class="list3title3">{{$orden->email}}  // {{ $orden->telefono}} // {{ $orden->created_at}} </p>
                                   <a href="#" class="btn-link btn-link1">Ver mas<span></span></a>
                                 </div>
