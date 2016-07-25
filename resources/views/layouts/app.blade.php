@@ -32,6 +32,7 @@
         overflow: hidden;
         display: block;
         margin-right: 20px;
+        width: 40% !important;
     }
     .list3 li figure img {
         width: 100%;
@@ -81,14 +82,7 @@
         margin-top: 30px;
         padding-right: 10px;
     }
-  .list3 li figure {
-      margin: 0;
-      padding: 0;
-      float: left;
-      overflow: hidden;
-      display: block;
-      margin-right: 20px;
-  }
+
     .list3 {
       padding: 0;
       margin: 0;
