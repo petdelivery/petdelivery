@@ -37,9 +37,10 @@
                     <div class="panel col-sm-12">
                         <div class="panel-heading">Articulos</div>
                         <div class="panel-body">
+                            <ul class="list3">
                             @foreach ($articulos as $articulo)
                            
-                            <ul class="list3">
+                          
                               <li class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="box4">
                                   <figure><img src="/uploads/{{ $articulo->image}}" alt=""></figure>
@@ -51,7 +52,7 @@
                                   
                                 </div></div></div>
                               </li>
-                             </ul>
+                           
 
 
 
@@ -63,6 +64,7 @@
                                  <div class="text-center media"><img src="/uploads/{{ $articulo->image}}" alt="{{ $articulo->image}}" width="70px"></div>
                                 </div> -->
                              @endforeach
+                               </ul>
                         </div>
                         <div class="panel-footer">Nuevo Articulo<div>
 

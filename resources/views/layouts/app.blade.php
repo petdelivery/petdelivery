@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
 
+    .list3 li figure img {
+        width: 100%;
+    }
     .btn-link1 {
     position: relative;
     color: #585858;
