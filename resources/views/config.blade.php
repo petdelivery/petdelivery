@@ -45,17 +45,13 @@
                                 <div class="box4">
                                   <figure><img src="/uploads/{{ $articulo->image}}" alt=""></figure>
                                   <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
+                                  <a href="{{url('config/product/remove/'.$articulo->id)}}" class="button-close btn-sm  btn btn-danger btn-small">Eliminar</a>
                                   <p class="list3title1">{{$articulo->title}}</p>
                                   <p class="list3title2">{{$articulo->precio}}</p>
                                   <p class="list3title3">descripcion</p>
-                                  <a href="#" class="btn-link btn-link1">ver mas<span></span></a>
-                                  
-                                </div></div></div>
+                                  <a href="#" class="btn-link btn-link1">Ver mas<span></span></a>
+                                </div>
                               </li>
-                           
-
-
-
                             <!-- -->
                              <!--   <div class="config-articulo title col-sm-4">
                                 <a href="{{url('config/product/remove/'.$articulo->id)}}" class="button-close btn-sm  btn btn-danger btn-small"> x </a>
