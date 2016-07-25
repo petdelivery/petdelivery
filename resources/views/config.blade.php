@@ -39,7 +39,7 @@
                         <div class="panel-body">
                             @foreach ($articulos as $articulo)
                                 <div class="config-articulo title col-sm-4">
-                                <a href="{{url('config/article/remove/'.$articulo->id)}}" class="button-close btn-sm  btn btn-danger btn-small"> x </a>
+                                <a href="{{url('config/product/remove/'.$articulo->id)}}" class="button-close btn-sm  btn btn-danger btn-small"> x </a>
                                <span class="titulo  {{ $articulo->destacado?'bg-success':''}} ">{{$articulo->title}}
                                  </span> 
                                  <div class="text-center media"><img src="/uploads/{{ $articulo->image}}" alt="{{ $articulo->image}}" width="70px"></div>
