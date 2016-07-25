@@ -25,6 +25,73 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
+
+    .btn-link1 {
+    position: relative;
+    color: #585858;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: normal;
+}
+    .list3title3 {
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #c6c6c6;
+    margin-bottom: 8px;
+}
+    .list3title2 {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #adadad;
+    margin-bottom: 6px;
+    }
+    .list3title1 {
+        font-family: 'Georgia', serif;
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: normal;
+        color: #4e4134;
+        margin-bottom: 10px;
+    }
+    @media (min-width: 1220px){
+          .list3 li .info1 {
+        overflow: hidden;
+        margin-top: 46px;
+      }
+    }
+
+    .list3 li .info1 {
+        overflow: hidden;
+        margin-top: 30px;
+        padding-right: 10px;
+    }
+  .list3 li figure {
+      margin: 0;
+      padding: 0;
+      float: left;
+      overflow: hidden;
+      display: block;
+      margin-right: 20px;
+  }
+    .list3 {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      list-style: none;
+      overflow: hidden;
+    }
+    .box4 {
+        overflow: hidden;
+        position: relative;
+        background: #ffffff;
+        margin-bottom: 30px;
+    }
     .config-articulo{
       min-height: 160px !important;
     }

@@ -38,52 +38,20 @@
                         <div class="panel-heading">Articulos</div>
                         <div class="panel-body">
                             @foreach ($articulos as $articulo)
+                           
                             <ul class="list3">
                               <li class="col-lg-6 col-md-6 col-sm-6">
-                              <div class="box4">
-                              <figure><img src="img/page1_img4.jpg" alt=""></figure>
-                              <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
-                              <p class="list3title1">Nature</p>
-                              <p class="list3title2">Migytafsas deuauyt asares</p>
-                              <p class="list3title3">Kictaesaert asetyertya aset aplicibrdedas.</p>
-                              <a href="#" class="btn-link btn-link1">learn more<span></span></a>
-                              </div></div>
-                              </div>
+                                <div class="box4">
+                                  <figure><img src="/uploads/{{ $articulo->image}}" alt=""></figure>
+                                  <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
+                                  <p class="list3title1">{{$articulo->title}}</p>
+                                  <p class="list3title2">{{$articulo->precio}}</p>
+                                  <p class="list3title3">descripcion</p>
+                                  <a href="#" class="btn-link btn-link1">ver mas<span></span></a>
+                                  
+                                </div>
                               </li>
-                              <li class="col-lg-6 col-md-6 col-sm-6">
-                              <div class="box4">
-                              <figure><img src="img/page1_img5.jpg" alt=""></figure>
-                              <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
-                              <p class="list3title1">Cities</p>
-                              <p class="list3title2">Btreasas lisemeyta siqades</p>
-                              <p class="list3title3">Kictaesaert asetyertya aset aplicibrdedas.</p>
-                              <a href="#" class="btn-link btn-link1">learn more<span></span></a>
-                              </div></div>
-                              </div>
-                              </li>
-                              <li class="col-lg-6 col-md-6 col-sm-6">
-                              <div class="box4">
-                              <figure><img src="img/page1_img6.jpg" alt=""></figure>
-                              <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
-                              <p class="list3title1">Portraits</p>
-                              <p class="list3title2">Dolore nuyfasa kerytertas</p>
-                              <p class="list3title3">Kictaesaert asetyertya aset aplicibrdedas.</p>
-                              <a href="#" class="btn-link btn-link1">learn more<span></span></a>
-                              </div></div>
-                              </div>
-                              </li>
-                              <li class="col-lg-6 col-md-6 col-sm-6">
-                              <div class="box4">
-                              <figure><img src="img/page1_img7.jpg" alt=""></figure>
-                              <div class="info1 maxheight" style="height: 116px;"><div class="box_inner">
-                              <p class="list3title1">Fashion</p>
-                              <p class="list3title2">Fertyuasa mietyas lteasas</p>
-                              <p class="list3title3">Kictaesaert asetyertya aset aplicibrdedas.</p>
-                              <a href="#" class="btn-link btn-link1">learn more<span></span></a>
-                              </div></div>
-                              </div>
-                              </li>
-                              </ul>
+                             </ul>
 
 
 
