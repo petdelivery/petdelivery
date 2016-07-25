@@ -49,19 +49,19 @@
                                   <p class="list3title3">descripcion</p>
                                   <a href="#" class="btn-link btn-link1">ver mas<span></span></a>
                                   
-                                </div>
+                                </div></div></div>
                               </li>
                              </ul>
 
 
 
                             <!-- -->
-                                <div class="config-articulo title col-sm-4">
+                             <!--   <div class="config-articulo title col-sm-4">
                                 <a href="{{url('config/product/remove/'.$articulo->id)}}" class="button-close btn-sm  btn btn-danger btn-small"> x </a>
                                <span class="titulo  {{ $articulo->destacado?'bg-success':''}} ">{{$articulo->title}}
                                  </span> 
                                  <div class="text-center media"><img src="/uploads/{{ $articulo->image}}" alt="{{ $articulo->image}}" width="70px"></div>
-                                </div> 
+                                </div> -->
                              @endforeach
                         </div>
                         <div class="panel-footer">Nuevo Articulo<div>
