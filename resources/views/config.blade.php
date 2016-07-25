@@ -9,6 +9,9 @@
                 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                   Ordenes
                 </a>
+                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseArticulos" aria-expanded="false" aria-controls="collapseArticulos">
+                  Articulos
+                </a>
                 
                 <div class="collapse" id="collapseExample">
                   <div class="well">
@@ -21,7 +24,7 @@
                     @endforeach
                   </div>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body  collapse" id="collapseArticulos">
                    <div class="panel col-sm-12">
 
                     <div class="panel-heading">Categorias</div>
@@ -35,9 +38,9 @@
                         <div class="panel-heading">Articulos</div>
                         <div class="panel-body">
                             @foreach ($articulos as $articulo)
-                                <div class="title col-sm-4 {{ $articulo->destacado?'bg-success':''}}">
+                                <div class="config-articulo title col-sm-4">
                                 <a href="{{url('config/article/remove/'.$articulo->id)}}" class="button-close btn-sm  btn btn-danger btn-small"> x </a>
-                               <span class="titulo">{{$articulo->title}}
+                               <span class="titulo  {{ $articulo->destacado?'bg-success':''}} ">{{$articulo->title}}
                                  </span> 
                                  <div class="text-center media"><img src="/uploads/{{ $articulo->image}}" alt="{{ $articulo->image}}" width="70px"></div>
                                 </div> 
