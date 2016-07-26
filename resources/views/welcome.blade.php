@@ -293,7 +293,7 @@
 <footer>
     <div class="row text-center" style="background:black;color;white;">
 
-        derechos registrados
+        derechos registrados <a href="https://api.instagram.com/oauth/authorize/?client_id=C415a9a8e2060465eb264191c9604eae8&redirect_uri=http://www.perrocallejero.co&response_type=code" target="_blank">Instagram</a>
         
     </div>
 </footer>
