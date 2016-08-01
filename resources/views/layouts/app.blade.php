@@ -25,11 +25,11 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
-    .row .dark{
-      background:#cfcfcf;
-    }
+    .row.dark {
+    background: rgba(175, 175, 175, 0.1);
+}
     .navbar{
-      margin-bottom: 20px;
+      margin-bottom: 0px;
     }
         
     .list3 li figure {
