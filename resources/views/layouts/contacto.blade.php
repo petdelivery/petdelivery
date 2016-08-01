@@ -318,7 +318,7 @@ nav ul li a:hover {
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
                 var mapOptions = {
                     // How zoomed in you want the map to start at (always required)
-                    zoom: 11,
+                    zoom: 18,
 
                     // The latitude and longitude to center the map (always required) 4.7622903,-74.0313229
                     center: new google.maps.LatLng(4.7622903, -74.0313229), // Bogota casa
