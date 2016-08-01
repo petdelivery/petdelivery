@@ -320,8 +320,8 @@ nav ul li a:hover {
                     // How zoomed in you want the map to start at (always required)
                     zoom: 11,
 
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                    // The latitude and longitude to center the map (always required) 4.7622903,-74.0313229
+                    center: new google.maps.LatLng(4.7622903, -74.0313229), // Bogota casa
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
