@@ -33,7 +33,7 @@
           <div class="col-md-4 bordered">
             <div class="product-description-home">
               <a class="btn" href="article/{{$article->id}}">
-                  <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
+                  <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive img-home">
               </a>
               <h3>
                   {{ $article->title}}
