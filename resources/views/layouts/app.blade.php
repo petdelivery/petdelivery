@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
+    .navbar{
+      margin-bottom: 20px;
+    }
+        
     .list3 li figure {
         margin: 0;
         padding: 0;
