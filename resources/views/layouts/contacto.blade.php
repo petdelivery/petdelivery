@@ -304,8 +304,10 @@ nav ul li a:hover {
 
             After you sign up, use the following script tag with YOUR_GOOGLE_API_KEY replaced with your actual key.
                 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY"></script>
+                AIzaSyDKN5w2XYZBaxXQ98AmzV7CDn37J_8gDaU
         -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=57Xcc6N5830nx4t"></script>
         
         <script type="text/javascript">
             // When the window has finished loading create our google map below
