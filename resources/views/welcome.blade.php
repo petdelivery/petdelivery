@@ -23,7 +23,7 @@
 
 <hr>
 <!-- -->
-<div class="row">
+<div class="row dark">
   <div class="container">
       <div class="row">
         <h2>Las mejores marcas de comida para tu mascota al mejor precio.</h2>

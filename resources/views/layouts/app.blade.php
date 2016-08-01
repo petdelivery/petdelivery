@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
+    .row .dark{
+      background:#cfcfcf;
+    }
     .navbar{
       margin-bottom: 20px;
     }
