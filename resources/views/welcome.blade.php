@@ -3,7 +3,8 @@
 @section('content')
 
 <!-- -->
-<div>
+<div class="row">
+  <div class="container">
      <div id="carousel" class="carousel slide" data-ride="carousel">
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
@@ -17,83 +18,84 @@
                 </div>
               </div>
     </div>
+    </div>
 </div>
 
 <hr>
 <!-- -->
-<div class="container">
-
-
-    <div class="row">
-      <h2>Las mejores marcas de comida para tu mascota al mejor precio.</h2>
-      {{ isset($noticiaciones)? $noticiaciones:''}}
-  
-        @foreach($articles as $article)
-        <div class="col-md-4 bordered">
-          <div class="product-description-home">
-            <a class="btn" href="article/{{$article->id}}">
-                <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
-            </a>
-            <h3>
-                {{ $article->title}}
-            </h3>
-            <p>
-                {{ $article->description}}
-            </p>
-          </div>
-          <div class="text-center bg-info">
-            <b>${{ $article->precio }} </b>
-          </div>
-           <div class="text-center bg-verde">
-            <a class="btn" href="product/{{ $article->id}}">Ver mas</a>
-          </div>
-        </div>
-        
-        @endforeach
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default text-center">
-                <div class="panel-heading bg-success">Haz tus pedidos por whatsapp</div>
-
-                <div class="panel-body text-center">
-                    305-7064871
-                </div>
+<div class="row">
+  <div class="container">
+      <div class="row">
+        <h2>Las mejores marcas de comida para tu mascota al mejor precio.</h2>
+        {{ isset($noticiaciones)? $noticiaciones:''}}
+    
+          @foreach($articles as $article)
+          <div class="col-md-4 bordered">
+            <div class="product-description-home">
+              <a class="btn" href="article/{{$article->id}}">
+                  <img src="/uploads/{{$article->image}}" width="100%" class="img-responsive">
+              </a>
+              <h3>
+                  {{ $article->title}}
+              </h3>
+              <p>
+                  {{ $article->description}}
+              </p>
             </div>
-        </div>
-    </div>
+            <div class="text-center bg-info">
+              <b>${{ $article->precio }} </b>
+            </div>
+             <div class="text-center bg-verde">
+              <a class="btn" href="product/{{ $article->id}}">Ver mas</a>
+            </div>
+          </div>
+          
+          @endforeach
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+              <div class="panel panel-default text-center">
+                  <div class="panel-heading bg-success">Haz tus pedidos por whatsapp</div>
+
+                  <div class="panel-body text-center">
+                      305-7064871
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
 
 
-    <div class="row hidden">
-        <div class="col-md-4">
-            <blockquote>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                </p> <small>Someone famous <cite>Source Title</cite></small>
-            </blockquote>
-        </div>
-        <div class="col-md-4">
-            <blockquote>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                </p> <small>Someone famous <cite>Source Title</cite></small>
-            </blockquote>
-        </div>
-        <div class="col-md-4">
-            <blockquote>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                </p> <small>Someone famous <cite>Source Title</cite></small>
-            </blockquote>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-        </div>
-    </div>
+      <div class="row hidden">
+          <div class="col-md-4">
+              <blockquote>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                  </p> <small>Someone famous <cite>Source Title</cite></small>
+              </blockquote>
+          </div>
+          <div class="col-md-4">
+              <blockquote>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                  </p> <small>Someone famous <cite>Source Title</cite></small>
+              </blockquote>
+          </div>
+          <div class="col-md-4">
+              <blockquote>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                  </p> <small>Someone famous <cite>Source Title</cite></small>
+              </blockquote>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+          </div>
+      </div>
+  </div>
 </div>
 
 <div class="tilesrow">
