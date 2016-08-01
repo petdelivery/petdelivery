@@ -293,7 +293,7 @@
 <footer>
     <div class="row text-center" style="background:black;color;white;">
 
-        derechos registrados <a href="https://api.instagram.com/oauth/authorize/?client_id=5857a47c222b43e39816def813eeaf8d&redirect_uri= http://www.petdelivery.co&response_type=code" target="_blank">Instagram</a>
+        derechos registrados <a href="https://api.instagram.com/oauth/authorize/?client_id=5857a47c222b43e39816def813eeaf8d&redirect_uri=http://www.petdelivery.co&response_type=code" target="_blank">Instagram</a>
         
     </div>
 </footer>
