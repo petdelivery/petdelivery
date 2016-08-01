@@ -307,7 +307,7 @@ nav ul li a:hover {
                 AIzaSyDKN5w2XYZBaxXQ98AmzV7CDn37J_8gDaU
         -->
 
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=57Xcc6N5830nx4t"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKN5w2XYZBaxXQ98AmzV7CDn37J_8gDaU"></script>
         
         <script type="text/javascript">
             // When the window has finished loading create our google map below
