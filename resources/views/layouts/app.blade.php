@@ -29,6 +29,19 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
+    .header{    opacity:1;
+    -webkit-transition: background-color 700ms linear;
+    -moz-transition: background-color 700ms linear;
+    -o-transition: background-color 700ms linear;
+    -ms-transition: background-color 700ms linear;
+    transition: background-color 700ms linear;
+    transition: display 700ms linear;
+    -webkit-transition: opacity 700ms linear;}
+
+    .scrolled{
+      opacity:0;
+    }
+
     .border_gradient {
       border: 8px solid #000;
       -moz-border-bottom-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
@@ -468,6 +481,21 @@ nav ul li a:hover {
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     <script>
       $( document ).ready(function() {
+
+
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 100) {
+            $("header").addClass("scrolled");
+        } 
+        else {
+             $("header").removeClass("scrolled");
+        }
+    });
+
+
+
+
+
         $(".tilehead").height($("#tile1").width());
 
 
