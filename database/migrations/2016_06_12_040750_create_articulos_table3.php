@@ -18,6 +18,16 @@ class CreateArticulosTable3 extends Migration
             $table->string('description');
             $table->string('category');
             $table->string('precio');
+            $table->string('destacado');
+            $table->string('image');
+            $table->timestamps();
+        });
+        Schema::create('posts', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('title');
+            $table->string('description');
+            $table->string('category');
+            $table->string('destacado');
             $table->string('image');
             $table->timestamps();
         });
