@@ -31,6 +31,15 @@ class CreateArticulosTable3 extends Migration
             $table->string('image');
             $table->timestamps();
         });
+         Schema::create('orden', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('email');
+            $table->string('telefono');
+            $table->string('cantidad');
+            $table->string('producto');
+            $table->string('llamame');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -41,5 +50,7 @@ class CreateArticulosTable3 extends Migration
     public function down()
     {
         Schema::drop('articulos');
+        Schema::drop('posts');
+        Schema::drop('orden');
     }
 }
