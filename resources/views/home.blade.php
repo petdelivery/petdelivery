@@ -6,7 +6,7 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading"> 
-                   <h1>La mejor comida para mascotas al norte de Bogotà</h1> 
+                   <h1>La mejor comida para mascotas a domicilio al norte de Bogotà</h1> 
                 </div>
 
                 <div class="panel-body">
@@ -26,15 +26,15 @@
                     {{ $article->description}}
                 </p>
                 <p>
-                    <a class="btn" href="article/{{ $article->id}}">{{ $article->precio }} --> Ordenar</a>
+                    <a class="btn btn-success" href="article/{{ $article->id}}">{{ $article->precio }}  Ordenar</a>
                 </p>
             </div>
             @endforeach
 
         </div>
-    <div class="row">
+    <div class="row bg-info">
         <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
+            <div class="panel panel-info">
                 <div class="panel-heading">Haz tus pedidos por whatsapp</div>
 
                 <div class="panel-body">
