@@ -110,7 +110,7 @@
 </div>
 <div>
 @foreach($posts as $post)
-<div>$post->title</div>
+<div>{{$post->title}}</div>
 @endforeach()
 </div>
 <div class="tilesrow">
