@@ -108,7 +108,11 @@
 <div class="hijo col-md-2"><a href="/Gatos/total-max-cat-comida" target="_blank"><img id="totalmax_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/total-max-3.png" alt="image05" ></a></div>
 <div class="hijo col-md-2"><a href="/Gatos/diamond-comida" target="_blank"><img id="diamond_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/diamond.jpg" alt="image01"  ></a></div>
 </div>
-
+<div>
+@foreach($posts as $post)
+<div>$post->title</div>
+@endforeach()
+</div>
 <div class="tilesrow">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
