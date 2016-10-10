@@ -11,12 +11,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="pet shop bogota zona norte, entregaa domicilio, las mejores marcas de comida para gato o perro al mejor precio.">
-    <title>PETDelivery</title>
+    <meta name="description" content="pet shop bogota zona norte, entrega a domicilio, las mejores marcas de comida para gato o perro al mejor precio.">
+    <title>PETDelivery comida de mascota a domicilio</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+    <style>
+        .item h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 40px;
+             font-family: "Roboto"; 
+            color: white;
+            font-kerning: 10px;
+        }
+    </style>
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/semantic.min.css" integrity="sha256-pPbI0vDzgZ7JRdi3J6zdmBRMfDircVPDpH+sPWdf8nY=" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/semantic.min.js" integrity="sha256-V9KQx5JePXsTb/xam4ALIhrJmnnujI6r4W1CZjqvzH4=" crossorigin="anonymous"></script>
