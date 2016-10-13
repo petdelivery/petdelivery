@@ -100,14 +100,7 @@
       </div>
   </div>
 </div>
-<div class=" row padre">
-<div class="hijo col-md-2"><a href="/Gatos/hills-comida-gato" target="_blank"><img id="hills_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/hills.jpg" alt="image05"></a></div>
-<div class="hijo col-md-2"><a href="/Gatos/pro-plan-comida" target="_blank"><img id="proplan_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/proplan.jpg" alt="image05"  ></a></div>
-<div class="hijo col-md-2"><a href="/Gatos/taste-of-the-wild-comida" target="_blank"><img id="taste_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/tasteofthewild.jpg" alt="image05" ></a></div>
-<div class="hijo col-md-2"><a href="/Gatos/nutra-nuggets-comida" target="_blank"><img id="nutra_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/nutra-nuggets.jpg" alt="image05" ></a></div>
-<div class="hijo col-md-2"><a href="/Gatos/total-max-cat-comida" target="_blank"><img id="totalmax_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/total-max-3.png" alt="image05" ></a></div>
-<div class="hijo col-md-2"><a href="/Gatos/diamond-comida" target="_blank"><img id="diamond_slider" src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/diamond.jpg" alt="image01"  ></a></div>
-</div>
+
 <div>
 @foreach($posts as $post)
 <div>{{$post->title}}</div>
@@ -125,10 +118,10 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                       <img src="http://handsontek.net/demoimages/tiles/twitter1.png" class="img-responsive"/>
+                       <img src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/hills.jpg" class="img-responsive"/>
                     </div>
                     <div class="item">
-                       <img src="http://handsontek.net/demoimages/tiles/twitter2.png" class="img-responsive"/>
+                       <img src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/proplan.jpg" class="img-responsive"/>
                     </div>
                   </div>
                 </div>
@@ -142,13 +135,13 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <img src="http://handsontek.net/demoimages/tiles/hot.png" class="img-responsive"/>
+                      <img src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/tasteofthewild.jpg" class="img-responsive"/>
                     </div>
                     <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/hot2.png" class="img-responsive"/>
+                      <img src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/nutra-nuggets.jpg" class="img-responsive"/>
                     </div>
                     <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/hot3.png" class="img-responsive"/>
+                      <img src="https://www.ciudaddemascotas.com/projects/Slider_Marcas/images/total-max-3.png" class="img-responsive"/>
                     </div>
                   </div>
                 </div>
