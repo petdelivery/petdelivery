@@ -273,7 +273,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-xs-8">
-                <div id="tile10" class="tile">
+                <div id="tile10" class="tile backg">
                  
                    <div class="carousel slide" data-ride="carousel">
                   <!-- Wrapper for slides -->
