@@ -101,7 +101,7 @@
   </div>
 </div>
 
-<section class="testimonials">
+<section class="testimonials hidden">
   <div class="inner">
     <h2>What <span>our customers</span> are saying</h2>
 
@@ -145,9 +145,6 @@
       </div>
     </div>
 
-    <p>
-      Check out <a href="/love/">more feedback from our users</a>.
-    </p>
   </div>
 </section>
 
