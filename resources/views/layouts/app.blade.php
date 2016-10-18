@@ -34,7 +34,7 @@
         }
     </style>
 
-
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/semantic.min.css" integrity="sha256-pPbI0vDzgZ7JRdi3J6zdmBRMfDircVPDpH+sPWdf8nY=" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/semantic.min.js" integrity="sha256-V9KQx5JePXsTb/xam4ALIhrJmnnujI6r4W1CZjqvzH4=" crossorigin="anonymous"></script>
 

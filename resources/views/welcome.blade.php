@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- -->
-<div class="row">
+<div class="row backg">
   <div class="container">
      <div id="carousel" class="carousel slide" data-ride="carousel">
               <!-- Wrapper for slides -->
@@ -100,14 +100,14 @@
       </div>
   </div>
 </div>
-
-<div>
+<div class="hidden"> 
 @foreach($posts as $post)
 <div>{{$post->title}}</div>
 @endforeach()
 </div>
-<div class="tilesrow">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="tilesrow hidden">
+        
 
         <div class="container dynamicTile">
         <div class="row ">
@@ -217,87 +217,6 @@
             </div>
         </div>
 
-        <div class="row   windowstiles hidden">
-            <div class="col-sm-4 col-xs-8">
-                <div id="tile7" class="tile">
-                 
-                <div class="carousel slide" data-ride="carousel">
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="http://handsontek.net/demoimages/tiles/gallery.png" class="img-responsive"/>
-                    </div>
-                    <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/gallery2.png" class="img-responsive"/>
-                    </div>
-                    <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/gallery3.png" class="img-responsive"/>
-                    </div>
-                  </div>
-                </div>
-                 
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-                <div id="tile8" class="tile">
-                 
-                 <div class="carousel slide" data-ride="carousel">
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                       <img src="http://handsontek.net/demoimages/tiles/music.png" class="img-responsive"/>
-                    </div>
-                    <div class="item">
-                       <img src="http://handsontek.net/demoimages/tiles/music2.png" class="img-responsive"/>
-                    </div>
-                    </div>
-                 </div>
-                 
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-                <div id="tile9" class="tile">
-                 
-                  <div class="carousel slide" data-ride="carousel">
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="http://handsontek.net/demoimages/tiles/calendar.png" class="img-responsive"/>
-                    </div>
-                    <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/calendar2.png" class="img-responsive"/>
-                    </div>
-                  </div>
-                </div>
-                 
-                </div>
-            </div>
-            <div class="col-sm-4 col-xs-8">
-                <div id="tile10" class="tile backg">
-                 
-                   <div class="carousel slide" data-ride="carousel">
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <h3 class="tilecaption"><i class="fa fa-child fa-4x"></i></h3>
-                    </div>
-                    <div class="item">
-                      <h3 class="tilecaption">Gatos</h3>
-                    </div>
-                    <div class="item">
-                      <h3 class="tilecaption">Perros</h3>
-                    </div>
-                    <div class="item">
-                      <h3 class="tilecaption">Accesorios</h3>
-                    </div>
-                  
-                  </div>
-                </div>
-                 
-                </div>
-            </div>
-          
-        </div>
 
 </div><!-- fin tiles-->
 <footer>
