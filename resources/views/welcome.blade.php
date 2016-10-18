@@ -100,6 +100,58 @@
       </div>
   </div>
 </div>
+
+<section class="testimonials">
+  <div class="inner">
+    <h2>What <span>our customers</span> are saying</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <blockquote>
+          <p>
+            "The Transloadit crew has built something simple, elegant, powerful and fun."
+          </p>
+
+          <cite>
+            <a href="https://twitter.com/joestump">Joe Stump</a> - founder of Sprint.ly
+            <img src="/img/testimonials/joe_stump-quanted.png">
+          </cite>
+        </blockquote>
+      </div>
+
+      <div class="col-md-4">
+        <blockquote>
+          <p>
+            "Thanks to Transloadit, Coursera now has a 1-click photo upload!"
+          </p>
+
+          <cite>
+            <a href="https://twitter.com/pamelafox">Pamela Fox</a> - engineer at Coursera
+            <img src="/img/testimonials/pamela_fox-quanted.png">
+          </cite>
+        </blockquote>
+      </div>
+
+      <div class="col-md-4">
+        <blockquote>
+          <p>
+            "Transloadit is a great way to save time and money in dev and server costs!"
+          </p>
+          <cite>
+            <a href="https://twitter.com/accme">Peter Gerard</a> - founder of Distrify
+            <img src="/img/testimonials/peter_gerard-quanted.png">
+          </cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <p>
+      Check out <a href="/love/">more feedback from our users</a>.
+    </p>
+  </div>
+</section>
+
+
 <div class="hidden"> 
 @foreach($posts as $post)
 <div>{{$post->title}}</div>
