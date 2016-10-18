@@ -4,6 +4,7 @@
 
 <!-- -->
 <div class="row backg">
+<h1 style="text-indent:200px;color:white;">Comida para perros al norte de bogota</h1>
   <div class="container">
      <div id="carousel" class="carousel slide" data-ride="carousel">
               <!-- Wrapper for slides -->
@@ -11,7 +12,7 @@
                
                 <div class="item active">
                   <img src="/assets/images/home.jpg" class="img-responsive"/>
-                  <h1>Comida para gatos a domicilio</h1>
+                  <h2>Comida para gatos a domicilio</h2>
                   
                 </div>
                 
@@ -103,7 +104,7 @@
 
 <section class="testimonials hidden">
   <div class="inner">
-    <h2>What <span>our customers</span> are saying</h2>
+    <h2>lo que dicen nuestros <span>clientes </span></h2>
 
     <div class="row">
       <div class="col-md-4">
