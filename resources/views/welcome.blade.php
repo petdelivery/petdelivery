@@ -4,7 +4,7 @@
 
 <!-- -->
 <div class="row backg">
-<h1 style="text-indent:200px;color:white;">Comida para perros al norte de bogota</h1>
+<h1 style="text-indent:-200%;color:white;">Comida para perros al norte de bogota</h1>
   <div class="container">
      <div id="carousel" class="carousel slide" data-ride="carousel">
               <!-- Wrapper for slides -->
