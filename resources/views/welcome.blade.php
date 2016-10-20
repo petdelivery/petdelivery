@@ -98,7 +98,7 @@
   </div>
 </div>
 
-<section class="testimonials hidden">
+<section class="testimonials ">
   <div class="container">
     <h2>lo que dicen nuestros <span>clientes </span></h2>
 
@@ -106,12 +106,12 @@
       <div class="col-md-4">
         <blockquote>
           <p>
-            "The Transloadit crew has built something simple, elegant, powerful and fun."
+            "El servicio al cliente es de lo mejor"
           </p>
 
           <cite>
-            <a href="https://twitter.com/joestump">Joe Stump</a> - founder of Sprint.ly
-            <img src="/img/testimonials/joe_stump-quanted.png">
+            <a href="">Diana Gomez</a> - Dueña de sheldon
+            <img src="http://placekitten.com/40/40">
           </cite>
         </blockquote>
       </div>
@@ -119,12 +119,12 @@
       <div class="col-md-4">
         <blockquote>
           <p>
-            "Thanks to Transloadit, Coursera now has a 1-click photo upload!"
+            "Una preocupacion menos"
           </p>
 
           <cite>
-            <a href="https://twitter.com/pamelafox">Pamela Fox</a> - engineer at Coursera
-            <img src="/img/testimonials/pamela_fox-quanted.png">
+            <a href="">Oliverto Gomez</a> - engineer at Coursera
+            <img src="http://placekitten.com/40/40">
           </cite>
         </blockquote>
       </div>
@@ -132,11 +132,11 @@
       <div class="col-md-4">
         <blockquote>
           <p>
-            "Transloadit is a great way to save time and money in dev and server costs!"
+            "El mejor servicio y a muy buen precio."
           </p>
           <cite>
-            <a href="https://twitter.com/accme">Peter Gerard</a> - founder of Distrify
-            <img src="/img/testimonials/peter_gerard-quanted.png">
+            <a href="">Mariana</a> - founder of Distrify
+            <img src="http://placekitten.com/40/40">
           </cite>
         </blockquote>
       </div>
@@ -204,10 +204,10 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                       <img src="http://handsontek.net/demoimages/tiles/weather2.png" class="img-responsive"/>
+                       <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                     <div class="item">
-                       <img src="http://handsontek.net/demoimages/tiles/weather.png" class="img-responsive"/>
+                       <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                     </div>
                  </div>
@@ -220,10 +220,10 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <img src="http://handsontek.net/demoimages/tiles/facebook3.png" class="img-responsive"/>
+                      <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                     <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/facebook2.png" class="img-responsive"/>
+                      <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                   </div>
                 </div>
@@ -237,10 +237,10 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <img src="http://handsontek.net/demoimages/tiles/neews.png" class="img-responsive"/>
+                      <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                     <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/neews2.png" class="img-responsive"/>
+                      <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                   </div>
                 </div>
@@ -254,10 +254,10 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <img src="http://handsontek.net/demoimages/tiles/skype.png" class="img-responsive"/>
+                      <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                     <div class="item">
-                      <img src="http://handsontek.net/demoimages/tiles/skype2.png" class="img-responsive"/>
+                      <img src="http://placekitten.com/300/300" class="img-responsive"/>
                     </div>
                   </div>
                 </div>
