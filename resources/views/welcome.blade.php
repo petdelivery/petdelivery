@@ -99,7 +99,7 @@
 </div>
 
 <section class="testimonials hidden">
-  <div class="inner">
+  <div class="container">
     <h2>lo que dicen nuestros <span>clientes </span></h2>
 
     <div class="row">
