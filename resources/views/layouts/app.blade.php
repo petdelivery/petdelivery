@@ -481,7 +481,39 @@ nav ul li a:hover {
 }
 
 
+.testimonials blockquote p {
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    position: relative;
+    min-height: 100px;
+    background: #3498db;
+    color: #fff;
+}
 
+
+
+@media (min-width: 1200px){
+.c-Home.a-index .main .content section>.inner {
+    width: 1170px;
+}}
+@media (min-width: 992px){
+.c-Home.a-index .main .content section>.inner {
+    width: 970px;
+}}
+@media (min-width: 768px){
+.c-Home.a-index .main .content section>.inner {
+    width: 750px;
+}}
+.main .content section>.inner {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main section .inner {
+    padding: 40px 0;
+}
 
     </style>
     <script>
