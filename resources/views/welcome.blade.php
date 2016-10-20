@@ -29,7 +29,6 @@
       <div class="row">
         <h2>Las mejores marcas de comida para tu mascota al mejor precio.</h2>
         {{ isset($noticiaciones)? $noticiaciones:''}}
-    
           @foreach($articles as $article)
           <div class="col-md-4 bordered">
             <div class="product-description-home">
@@ -43,11 +42,11 @@
                   {{ $article->description}}
               </p>
             </div>
-            <div class="text-center bg-info">
-              <b>${{ $article->precio }} </b>
+            <div class="text-center bg-info precio">
+              <b >${{ $article->precio }} </b>
             </div>
-             <div class="text-center bg-verde">
-              <a class="btn" href="product/{{ $article->id}}">Ver mas</a>
+             <div class="text-center bg-verde comprar">
+              <a class="btn" href="product/{{$article->id}}">Comprar</a>
             </div>
           </div>
           
@@ -147,9 +146,12 @@
 </section>
 
 
-<div class="hidden"> 
+<div class="hidden posts"> 
 @foreach($posts as $post)
-<div>{{$post->title}}</div>
+    <div class="post">
+         <div class="post-title">      {{$post->title}} </div>
+         <div class="post-content">   {{$post->content}} </div>
+    </div>
 @endforeach()
 </div>
 

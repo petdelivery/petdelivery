@@ -6,13 +6,9 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading text-center"> 
-                   <h1><img src="/assets/images/logo.png" alt="petdelivery " width="70">La mejor comida para mascotas al norte de Bogotà</h1> 
-					
+                   <h1>La mejor comida para mascotas al norte de Bogotà</h1> 
                 </div>
-
                 <div class="panel-body">
-
-
         <div class="row">
         	<form action="/orden" method="post">
 				<div class="col-sm-4">
@@ -43,15 +39,19 @@
 				<div class="col-sm-8">
 					
 				  <div class="form-group">
-				    <label for="exampleInputEmail1">Correo electronico</label>
+				    <label for="email">Correo electronico</label>
 				    <input name="email" type="email" class="form-control" id="email" placeholder="Email">
 				  </div>
+				  <div class="form-group">
+				    <label for="name">Nombre</label>
+				    <input name="direccion" type="text" class="form-control" id="name" placeholder="Email">
+				  </div>
 				   <div class="form-group">
-				    <label for="exampleInputEmail1">Direccion</label>
-				    <input name="direccion" type="text" class="form-control" id="email" placeholder="Email">
+				    <label for="direccion">Direccion</label>
+				    <input name="direccion" type="text" class="form-control" id="direccion" placeholder="direccion">
 				  </div>
 				  <div class="form-group">
-				    <label for="exampleInputPassword1">Numero de telefono</label>
+				    <label for="telefono">Numero de telefono</label>
 				    <input name="telefono" type="text" class="form-control" id="telefono" placeholder="telefono">
 				  </div>
 				  <div class="checkbox">
@@ -59,7 +59,7 @@
 				      <input type="checkbox" name="llamame"> Llamame
 				    </label>
 				  </div>
-				  <button type="submit "  class="btn btn-success">Enviar</button>
+				  <button type="submit"  class="btn btn-success">Enviar</button>
 				</div>
 			</form>
         </div>
