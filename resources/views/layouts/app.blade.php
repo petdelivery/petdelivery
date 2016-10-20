@@ -510,7 +510,7 @@ nav ul li a:hover {
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Petdelivery
+                    <img src="/assets/images/logo.png" alt="petdelivery " width="70">
                 </a>
             </div>
 
@@ -534,7 +534,6 @@ nav ul li a:hover {
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
-
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Salir</a></li>
                             </ul>
@@ -553,31 +552,22 @@ nav ul li a:hover {
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     <script>
       $( document ).ready(function() {
-
-
         $(".tilehead").height($("#tile1").width());
-
-
           $(".windowstiles.tile").height($("#tile1").width());
           $(".windowstiles.carousel").height($("#tile1").width());
            $(".windowstiles.item").height($("#tile1").width());
-           
           $(window).resize(function() {
           if(this.resizeTO) clearTimeout(this.resizeTO);
         this.resizeTO = setTimeout(function() {
           $(this).trigger('resizeEnd');
         }, 10);
           });
-          
           $(window).bind('resizeEnd', function() {
             $(".tile").height($("#tile1").width());
               $(".carousel").height($("#tile1").width());
               $(".item").height($("#tile1").width());
           });
-
       });
-
-
     </script>
 </body>
 </html>

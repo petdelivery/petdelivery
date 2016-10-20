@@ -4,24 +4,21 @@
 
 <!-- -->
 <div class="row backg">
-<h1 style="text-indent:-200%;color:white;">Comida para perros al norte de bogota</h1>
-  <div class="container">
-     <div id="carousel" class="carousel slide" data-ride="carousel">
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-               
-                <div class="item active">
-                  <img src="/assets/images/home.jpg" class="img-responsive"/>
-                  <h2>Comida para gatos a domicilio</h2>
-                  
-                </div>
-                
-                <div class="item">
-                  <img src="/assets/images/home2.jpg" class="img-responsive"/>
-                  <h2> Comida para perros a domicilio</h2>
-                </div>
-              </div>
-    </div>
+    <h1 style="text-indent:-200%;color:white;">Comida para perros al norte de bogota</h1>
+    <div class="container">
+         <div id="carousel" class="carousel slide" data-ride="carousel">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="/assets/images/home.jpg" class="img-responsive"/>
+                      <h2>Comida para gatos a domicilio</h2>
+                    </div>
+                    <div class="item">
+                      <img src="/assets/images/home2.jpg" class="img-responsive"/>
+                      <h2> Comida para perros a domicilio</h2>
+                    </div>
+                  </div>
+        </div>
     </div>
 </div>
 
