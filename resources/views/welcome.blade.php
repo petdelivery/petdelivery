@@ -56,10 +56,10 @@
       <div class="row">
           <div class="col-md-10 col-md-offset-1">
               <div class="panel panel-default text-center">
-                  <div class="panel-heading bg-success">Haz tus pedidos por whatsapp</div>
+                  <div class="panel-heading bg-success text-center">Haz tus pedidos por whatsapp</div>
 
                   <div class="panel-body text-center">
-                      305-7064871
+         <p style="text-align:center;">             305-7064871</p>
                   </div>
               </div>
           </div>
@@ -111,7 +111,7 @@
 
           <cite>
             <a href="">Diana Gomez</a> - Dueña de sheldon
-            <img src="http://placekitten.com/40/40">
+            <img src="http://placekitten.com/40/40" class="img-resposive">
           </cite>
         </blockquote>
       </div>
@@ -124,13 +124,13 @@
 
           <cite>
             <a href="">Oliverto Gomez</a> - engineer at Coursera
-            <img src="http://placekitten.com/40/40">
+            <img src="http://placekitten.com/40/40" class="img-resposive">
           </cite>
         </blockquote>
       </div>
 
       <div class="col-md-4">
-        <blockquote>
+        <!--<blockquote>
           <p>
             "El mejor servicio y a muy buen precio."
           </p>
@@ -139,8 +139,11 @@
             <img src="http://placekitten.com/40/40">
           </cite>
         </blockquote>
+        -->
+        <img src="http://www.abbreviations.com/images/1824145_PETDELIVERY.png" class="img-resposive">
       </div>
     </div>
+    
 
   </div>
 </section>
