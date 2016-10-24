@@ -130,7 +130,7 @@
       </div>
 
       <div class="col-md-4">
-        <!--<blockquote>
+        <blockquote>
           <p>
             "El mejor servicio y a muy buen precio."
           </p>
@@ -139,8 +139,8 @@
             <img src="http://placekitten.com/40/40">
           </cite>
         </blockquote>
-        -->
-        <img src="http://www.abbreviations.com/images/1824145_PETDELIVERY.png" class="img-resposive">
+        
+        <!--<img src="http://www.abbreviations.com/images/1824145_PETDELIVERY.png" class="img-resposive">-->
       </div>
     </div>
     
