@@ -30,3 +30,8 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('config/product/remove/{id}','ConfigController@RemoveProduct');
 	Route::get('config/products/{categoria?}','ConfigController@ListProducts');
 });
+
+Route::get('/sitemap', function()
+{
+   return Response::view('sitemap')->header('Content-Type', 'application/xml');
+});
